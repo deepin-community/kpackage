@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-16 00:41+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2015-04-30 08:45+0200\n"
 "Last-Translator: Bjørn Steensrud <bjornst@skogkatt.homelinux.org>\n"
 "Language-Team: Norwegian Bokmål <l10n-no@lister.huftis.org>\n"
@@ -34,201 +34,101 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr "Skrivebordsfil som beskriver denne pakka."
 
-#: kpackage/packageloader.cpp:40
-#, kde-format
-msgid "Accessibility"
-msgstr "Tilgjengelighet"
-
-#: kpackage/packageloader.cpp:41
-#, kde-format
-msgid "Application Launchers"
-msgstr "Programstartere"
-
-#: kpackage/packageloader.cpp:42
-#, kde-format
-msgid "Astronomy"
-msgstr "Astronomi"
-
-#: kpackage/packageloader.cpp:43
-#, kde-format
-msgid "Date and Time"
-msgstr "Dato og klokkeslett"
-
-#: kpackage/packageloader.cpp:44
-#, kde-format
-msgid "Development Tools"
-msgstr "Utviklingsverktøy"
-
-#: kpackage/packageloader.cpp:45
-#, kde-format
-msgid "Education"
-msgstr "Utdanning"
-
-#: kpackage/packageloader.cpp:46
-#, kde-format
-msgid "Environment and Weather"
-msgstr "Miljø og vær"
-
-#: kpackage/packageloader.cpp:47
-#, kde-format
-msgid "Examples"
-msgstr "Eksempler"
-
-#: kpackage/packageloader.cpp:48
-#, kde-format
-msgid "File System"
-msgstr "Filsystem"
-
-#: kpackage/packageloader.cpp:49
-#, kde-format
-msgid "Fun and Games"
-msgstr "Spill og moro"
-
-#: kpackage/packageloader.cpp:50
-#, kde-format
-msgid "Graphics"
-msgstr "Grafikk"
-
-#: kpackage/packageloader.cpp:51
-#, kde-format
-msgid "Language"
-msgstr "Språk"
-
-#: kpackage/packageloader.cpp:52
-#, kde-format
-msgid "Mapping"
-msgstr "Kart"
-
-#: kpackage/packageloader.cpp:53
-#, kde-format
-msgid "Miscellaneous"
-msgstr "Diverse"
-
-#: kpackage/packageloader.cpp:54
-#, kde-format
-msgid "Multimedia"
-msgstr "Multimedia"
-
-#: kpackage/packageloader.cpp:55
-#, kde-format
-msgid "Online Services"
-msgstr "Nett-tjenester"
-
-#: kpackage/packageloader.cpp:56
-#, kde-format
-msgid "Productivity"
-msgstr "Produktivitet"
-
-#: kpackage/packageloader.cpp:57
-#, kde-format
-msgid "System Information"
-msgstr "Systeminformasjon"
-
-#: kpackage/packageloader.cpp:58
-#, kde-format
-msgid "Utilities"
-msgstr "Verktøy"
-
-#: kpackage/packageloader.cpp:59
-#, kde-format
-msgid "Windows and Tasks"
-msgstr "Vinduer og oppgaver"
-
-#: kpackage/packageloader.cpp:276
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Klarte ikke laste installerer for pakker av typen %1. Feilen som ble meldt "
 "var: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Klarte ikke å opprette rotmappe for pakken: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Fila finnes ikke: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "Klarte ikke åpne pakkefila, ustøttet arkivformat: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Klarte ikke å åpne pakkefila: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Ingen metadata-fil i pakken: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Tillegg-navnet for pakken er ikke oppgitt: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "Tillegg-navnet %1 for pakken inneholder ugyldige tegn"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 finnes fra før"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Klarte ikke flytte pakken til målet: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Klarte ikke kopiere pakken til målet: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 finnes ikke"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Klarte ikke slette pakken fra: %1"
@@ -314,7 +214,7 @@ msgstr ""
 "Du må enten oppgi «install» (installer), «remove» (fjern), "
 "«upgrade» (oppgrader) eller «list» (vis oversikt). …"
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr ""
@@ -349,7 +249,7 @@ msgstr "    Forfatter : %1"
 msgid "      Path : %1"
 msgstr "      Sti : %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -361,72 +261,67 @@ msgstr ""
 "Pakkeroten og globale innstillinger er i konflikt med hverandre, velg bare "
 "én."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Navn på tillegg"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Tjenestetype"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Sti"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Pakketyper som kan installeres med dette verktøyet:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "innebygd:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "KPackage/Generisk"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "KPackage/GeneriskQML"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Levert av programtillegg:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "Vellykket oppgradert %1"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Vellykket installert %1"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Feil: Installasjon av %1 mislyktes: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "Oppgraderer pakke fra fil: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "Vellykket avinstallert %1"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Feil: Avinstallasjon av %1 mislyktes: %2"

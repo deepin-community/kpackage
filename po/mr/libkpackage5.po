@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2013-03-09 14:27+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -32,180 +32,100 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr ""
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "सुलभता"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr ""
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr ""
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "दिनांक व वेळ"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr ""
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "शिक्षण"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr ""
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "उदाहरण"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "फाईल प्रणाली"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr ""
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "आलेखीय"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "भाषा"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "जुळवणी"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "किरकोळ"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "मल्टीमीडिया"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr ""
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr ""
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr ""
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "उपकार्यक्रम"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr ""
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "%1 या पॅकेज प्रकारासाठी प्रतिष्ठापना कार्यक्रम लोड होऊ शकला नाही. ही त्रुटी होती : %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 आधीपासूनच अस्तित्वात आहे."
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 अस्तित्वात नाही."
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr ""
@@ -292,7 +212,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "प्रतिष्ठापन, काढून टाका, अद्ययावत करा किंवा यादी यापैकी एकाची गरज आहे."
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, fuzzy, kde-format
 #| msgid "Error: Can't find plugin metadata: %1"
 msgid "Error: Can't find plugin metadata: %1\n"
@@ -328,7 +248,7 @@ msgstr "    लेखक : %1"
 msgid "      Path : %1"
 msgstr "      मार्ग : %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "The user entered conflicting options packageroot and global, this is the "
@@ -344,74 +264,69 @@ msgid ""
 "only one."
 msgstr "पॅकेजरूट व जागतिक पर्याय यांचा मतभेद आहे. कृपया फक्त एक निवडा."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "अधिक नाव"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "सेवा प्रकार"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "मार्ग"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "या साधनाने प्रतिष्ठापीत करता येण्याजोगे पॅकेज प्रकार :"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "अंतर्भूत :"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, fuzzy, kde-format
 #| msgid "Package"
 msgid "KPackage/Generic"
 msgstr "पॅकेज"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, fuzzy, kde-format
 #| msgid "Package"
 msgid "KPackage/GenericQML"
 msgstr "पॅकेज"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "प्लगइनने पुरविलेले :"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "यशस्वीरित्या अद्ययावत केले %1"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "%1 हे यशस्वीरित्या प्रतिष्ठापीत केले"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "त्रुटी : %1 ची प्रतिष्ठापना करण्यास अपयश: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "पॅकेज या फाईल वरून अद्ययावत करत आहे : %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "यशस्वीरित्या अप्रतिष्ठापीत केले %1"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "त्रुटी : %1 ची अप्रतिष्ठापना करण्यास अपयश: %2"
@@ -522,3 +437,204 @@ msgstr "<path> येथे या पॅकेज साठी SHA1 hash तय
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "<path> येथे या पॅकेज साठी SHA1 hash तयार करा"
+
+#~ msgid "Accessibility"
+#~ msgstr "सुलभता"
+
+#~ msgid "Date and Time"
+#~ msgstr "दिनांक व वेळ"
+
+#~ msgid "Education"
+#~ msgstr "शिक्षण"
+
+#~ msgid "Examples"
+#~ msgstr "उदाहरण"
+
+#~ msgid "File System"
+#~ msgstr "फाईल प्रणाली"
+
+#~ msgid "Graphics"
+#~ msgstr "आलेखीय"
+
+#~ msgid "Language"
+#~ msgstr "भाषा"
+
+#~ msgid "Mapping"
+#~ msgstr "जुळवणी"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "किरकोळ"
+
+#~ msgid "Multimedia"
+#~ msgstr "मल्टीमीडिया"
+
+#~ msgid "Utilities"
+#~ msgstr "उपकार्यक्रम"
+
+#~ msgid "Addon Name"
+#~ msgstr "अधिक नाव"
+
+#~ msgid "Service Type"
+#~ msgstr "सेवा प्रकार"
+
+#~ msgctxt ""
+#~ "theme, wallpaper, etc. are keywords, but they may be translated, as both "
+#~ "versions are recognized by the application (if translated, should be same "
+#~ "as messages with 'package type' context below)"
+#~ msgid ""
+#~ "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+#~ "layout-template, etc."
+#~ msgstr ""
+#~ "पॅकेजचा प्रकार. उदा. शैली, वॉलपेपर, प्लाज्मोइड, डेटाइंजिन, रनर, मांडणी-नमूना ई."
+
+#~ msgid "Provided by .desktop files:"
+#~ msgstr ".desktop फाईल्सने पुरविलेले :"
+
+#~ msgid "Unknown"
+#~ msgstr "अपरिचीत"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings"
+#~ msgstr "%1 संयोजना"
+
+#~ msgctxt "misc category"
+#~ msgid "Miscellaneous"
+#~ msgstr "किरकोळ"
+
+#, fuzzy
+#~| msgctxt "%1 is the name of the applet"
+#~| msgid "%1 Settings"
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings..."
+#~ msgstr "%1 संयोजना"
+
+#~ msgid "Activity Settings"
+#~ msgstr "कार्यपध्दती संयोजना"
+
+#~ msgctxt "package type"
+#~ msgid "plasmoid"
+#~ msgstr "प्लाज्मोइड"
+
+#~ msgctxt "package type"
+#~ msgid "package"
+#~ msgstr "पॅकेज"
+
+#~ msgctxt "package type"
+#~ msgid "theme"
+#~ msgstr "शैली"
+
+#~ msgctxt "package type"
+#~ msgid "dataengine"
+#~ msgstr "डेटाइंजिन"
+
+#~ msgctxt "package type"
+#~ msgid "runner"
+#~ msgstr "रनर"
+
+#~ msgctxt "package type"
+#~ msgid "wallpaperplugin"
+#~ msgstr "वॉलपेपर प्लगइन"
+
+#~ msgctxt "package type"
+#~ msgid "layout-template"
+#~ msgstr "मांडणी-नमूना"
+
+#~ msgctxt "package type"
+#~ msgid "kwineffect"
+#~ msgstr "के-विन परिणाम"
+
+#~ msgctxt "package type"
+#~ msgid "windowswitcher"
+#~ msgstr "चौकट बदल"
+
+#~ msgctxt "package type"
+#~ msgid "kwinscript"
+#~ msgstr "के-विन स्क्रिप्ट"
+
+#~ msgid "Could not find a suitable installer for package of type %1"
+#~ msgstr "%1 या पॅकेज प्रकारासाठी योग्य प्रतिष्ठापना कार्यक्रम सापडला नाही"
+
+#, fuzzy
+#~| msgid "Data Files"
+#~ msgid "DataEngine"
+#~ msgstr "डेटा फाईल्स"
+
+#~ msgid "Layout Template"
+#~ msgstr "मांडणी नमूना"
+
+#~ msgid "Plasmoid"
+#~ msgstr "प्लाज्मोइड"
+
+#~ msgid "Runner"
+#~ msgstr "रनर"
+
+#~ msgid "Theme"
+#~ msgstr "शैली"
+
+#~ msgid "Wallpaper Images"
+#~ msgstr "वॉलपेपर प्रतिमा"
+
+#~ msgid "KWin Effect"
+#~ msgstr "के-विन परिणाम"
+
+#~ msgid "KWin Window Switcher"
+#~ msgstr "के-विन चौकट बदल"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "KWin Script"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#~ msgid "Error loading QML file: %1"
+#~ msgstr "QML फाईल दाखल करतेवेळी त्रुटी : %1"
+
+#, fuzzy
+#~| msgctxt "%1 is the name of the applet"
+#~| msgid "%1 Settings"
+#~ msgid "%1 Settings"
+#~ msgstr "%1 संयोजना"
+
+#, fuzzy
+#~| msgid "Images"
+#~ msgid "Preview Images"
+#~ msgstr "प्रतिमा"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Login Manager"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Logout Dialog"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Lock Screen"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for User Switcher"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Splash Screen"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script KRunner"
+#~ msgstr "मुख्य स्क्रिप्ट फाईल"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "%1 Options"
+#~ msgstr "%1 पर्याय"
+
+#~ msgid "Unnamed"
+#~ msgstr "निनावी"
+
+#~ msgid "Panel"
+#~ msgstr "पटल"

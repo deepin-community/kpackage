@@ -1,15 +1,9 @@
-# Copyright (C) YEAR This_file_is_part_of_KDE
-# This file is distributed under the same license as the PACKAGE package.
-#
-# Weng Xuetian <wengxt@gmail.com>, 2014, 2015, 2016, 2017.
-# Xuetian Weng <xweng@cs.stonybrook.edu>, 2014.
-# Guo Yunhe <guoyunhebrave@gmail.com>, 2016.
 msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
-"PO-Revision-Date: 2021-12-22 14:06\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
+"PO-Revision-Date: 2023-01-12 10:30\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
@@ -38,179 +32,99 @@ msgstr "kde-china@kde.org, i@guoyunhe.me, tysontan@tysontan.com"
 msgid "Desktop file that describes this package."
 msgstr "描述此包的桌面定义文件。"
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "无障碍功能"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "应用程序启动器"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "天文"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "日期和时间"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "开发工具"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "教育"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "环境和天气"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "示例"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "文件系统"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "娱乐和游戏"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "图像处理"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "语言"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "映射"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "杂项"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "多媒体"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "在线服务"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "生产力"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "系统信息"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "工具"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "窗口和任务"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "无法加载类型 %1 的包安装器。报告的错误是：%2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "无法创建包根目录：%1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "没有这个文件：%1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "无法打开包文件，不支持的压缩格式：%1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "无法打开包文件：%1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "无法打开元数据文件：%1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "包没有元数据文件：%1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "包插件名称未指定：%1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "包插件名称 %1 包含无效字符"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr "新包的格式和已安装的旧版本不同。"
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr "无法删除位于 %2 的 %1 的旧版安装文件。错误：%3"
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr "未安装 %1 版本的 %2。已安装版本 %3 。"
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 已存在"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "无法安装依赖：“%1”"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "无法移动包到目标：%1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "无法复制包到目标：%1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr "软件包路径已被手动删除"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 不存在"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "无法从位置删除包：%1"
@@ -296,7 +210,7 @@ msgstr ""
 "必须使用安装 (install)、移除 (remove)、升级 (upgrade) 或列出 (list) 四个选项"
 "之一。"
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr "错误：无法找到插件元数据：%1\n"
@@ -331,7 +245,7 @@ msgstr "    作者：%1"
 msgid "      Path : %1"
 msgstr "      路径：%1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -341,72 +255,67 @@ msgid ""
 "only one."
 msgstr "包目录树的选项和全局选项相互冲突，请选择其中一个。"
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "插件名称"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "服务类型"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr "KPackage 结构名称"
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "路径"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "使用本工具可安装的包类型："
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "构建于："
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "KPackage/通用"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "KPackage/通用 QML"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "由这些插件提供："
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "已成功升级 %1"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "已成功安装 %1"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "错误：安装 %1 失败：%2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "从文件更新包：%1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "已成功卸载 %1"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "错误：卸载 %1 失败：%2"

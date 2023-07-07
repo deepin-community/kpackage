@@ -59,7 +59,7 @@ public:
     QString installPath;
     void output(const QString &msg);
     QStringList packages(const QStringList &types, const QString &path = QString());
-    void renderTypeTable(const QMap<QString, QStringList> &plugins);
+    void renderTypeTable(const QMap<QString, QString> &plugins);
     void listTypes();
     void coutput(const QString &msg);
     void cerror(const QString &msg);
@@ -396,10 +396,12 @@ void PackageTool::showAppstreamInfo(const QString &pluginName)
     // This can happen in the case an application wanting to support kpackage based extensions includes in the same project both the packagestructure plugin and
     // the packages themselves. In that case at build time the packagestructure plugin wouldn't be installed yet
 
-    if (QFile::exists(pluginName + QStringLiteral("/metadata.desktop"))) {
+    if (QFile::exists(pluginName + QStringLiteral("/metadata.json"))) {
+        i = KPluginMetaData::fromJsonFile(pluginName + QStringLiteral("/metadata.json"));
+#if KCOREADDONS_BUILD_DEPRECATED_SINCE(5, 92)
+    } else if (QFile::exists(pluginName + QStringLiteral("/metadata.desktop"))) {
         i = KPluginMetaData::fromDesktopFile(pluginName + QStringLiteral("/metadata.desktop"), {QStringLiteral(":/kservicetypes5/kpackage-generic.desktop")});
-    } else if (QFile::exists(pluginName + QStringLiteral("/metadata.json"))) {
-        i = KPluginMetaData(pluginName + QStringLiteral("/metadata.json"));
+#endif
     } else {
         QString type = QStringLiteral("KPackage/Generic");
         if (!d->pluginTypes.contains(type) && !d->pluginTypes.isEmpty()) {
@@ -455,7 +457,7 @@ void PackageTool::showAppstreamInfo(const QString &pluginName)
     // with the argument we'll print to the defined path.
     // TODO: in KF6 we should switch to argument-only.
     QIODevice *outputDevice = cout->device();
-    QScopedPointer<QFile> outputFile;
+    std::unique_ptr<QFile> outputFile;
     const auto outputPath = d->parser->value(Options::appstreamOutput());
     if (!outputPath.isEmpty()) {
         auto outputUrl = QUrl::fromUserInput(outputPath);
@@ -464,7 +466,7 @@ void PackageTool::showAppstreamInfo(const QString &pluginName)
             *cerr << "Failed to open output file for writing.";
             exit(1);
         }
-        outputDevice = outputFile.data();
+        outputDevice = outputFile.get();
     }
 
     if (i.description().isEmpty()) {
@@ -558,44 +560,35 @@ void PackageTool::listPackages(const QStringList &types, const QString &path)
     exit(0);
 }
 
-void PackageToolPrivate::renderTypeTable(const QMap<QString, QStringList> &plugins)
+void PackageToolPrivate::renderTypeTable(const QMap<QString, QString> &plugins)
 {
-    const QString nameHeader = i18n("Addon Name");
-    const QString pluginHeader = i18n("Service Type");
+    const QString nameHeader = i18n("KPackage Structure Name");
     const QString pathHeader = i18n("Path");
     int nameWidth = nameHeader.length();
-    int pluginWidth = pluginHeader.length();
     int pathWidth = pathHeader.length();
 
-    QMapIterator<QString, QStringList> pluginIt(plugins);
+    QMapIterator<QString, QString> pluginIt(plugins);
     while (pluginIt.hasNext()) {
         pluginIt.next();
         if (pluginIt.key().length() > nameWidth) {
             nameWidth = pluginIt.key().length();
         }
 
-        if (pluginIt.value()[0].length() > pluginWidth) {
-            pluginWidth = pluginIt.value()[0].length();
-        }
-
-        if (pluginIt.value()[1].length() > pathWidth) {
-            pathWidth = pluginIt.value()[1].length();
+        if (pluginIt.value().length() > pathWidth) {
+            pathWidth = pluginIt.value().length();
         }
     }
 
-    std::cout << nameHeader.toLocal8Bit().constData() << std::setw(nameWidth - nameHeader.length() + 2) << ' ' << pluginHeader.toLocal8Bit().constData()
-              << std::setw(pluginWidth - pluginHeader.length() + 2) << ' ' << pathHeader.toLocal8Bit().constData()
+    std::cout << nameHeader.toLocal8Bit().constData() << std::setw(nameWidth - nameHeader.length() + 2) << ' ' << pathHeader.toLocal8Bit().constData()
               << std::setw(pathWidth - pathHeader.length() + 2) << ' ' << std::endl;
-    std::cout << std::setfill('-') << std::setw(nameWidth) << '-' << "  " << std::setw(pluginWidth) << '-' << "  " << std::setw(pathWidth) << '-' << "  "
-              << std::endl;
+    std::cout << std::setfill('-') << std::setw(nameWidth) << '-' << "  " << std::setw(pathWidth) << '-' << "  " << std::endl;
     std::cout << std::setfill(' ');
 
     pluginIt.toFront();
     while (pluginIt.hasNext()) {
         pluginIt.next();
         std::cout << pluginIt.key().toLocal8Bit().constData() << std::setw(nameWidth - pluginIt.key().length() + 2) << ' '
-                  << pluginIt.value()[0].toLocal8Bit().constData() << std::setw(pluginWidth - pluginIt.value()[0].length() + 2) << ' '
-                  << pluginIt.value()[1].toLocal8Bit().constData() << std::setw(pathWidth - pluginIt.value()[1].length() + 2) << std::endl;
+                  << pluginIt.value().toLocal8Bit().constData() << std::setw(pathWidth - pluginIt.value().length() + 2) << std::endl;
     }
 }
 
@@ -604,11 +597,9 @@ void PackageToolPrivate::listTypes()
     coutput(i18n("Package types that are installable with this tool:"));
     coutput(i18n("Built in:"));
 
-    QMap<QString, QStringList> builtIns;
-    builtIns.insert(i18n("KPackage/Generic"),
-                    QStringList() << QStringLiteral("KPackage/Generic") << QStringLiteral(KPACKAGE_RELATIVE_DATA_INSTALL_DIR "/packages/"));
-    builtIns.insert(i18n("KPackage/GenericQML"),
-                    QStringList() << QStringLiteral("KPackage/GenericQML") << QStringLiteral(KPACKAGE_RELATIVE_DATA_INSTALL_DIR "/genericqml/"));
+    QMap<QString, QString> builtIns;
+    builtIns.insert(i18n("KPackage/Generic"), QStringLiteral(KPACKAGE_RELATIVE_DATA_INSTALL_DIR "/packages/"));
+    builtIns.insert(i18n("KPackage/GenericQML"), QStringLiteral(KPACKAGE_RELATIVE_DATA_INSTALL_DIR "/genericqml/"));
 
     renderTypeTable(builtIns);
 
@@ -618,13 +609,15 @@ void PackageToolPrivate::listTypes()
         std::cout << std::endl;
         coutput(i18n("Provided by plugins:"));
 
-        QMap<QString, QStringList> plugins;
+        QMap<QString, QString> plugins;
         for (const KPluginMetaData &info : offers) {
-            KPackage::Package pkg = KPackage::PackageLoader::self()->loadPackage(info.pluginId());
-            QString name = info.name();
-            QString plugin = info.pluginId();
+            const QStringList types = readKPackageTypes(info);
+            if (types.isEmpty()) {
+                continue;
+            }
+            KPackage::Package pkg = KPackage::PackageLoader::self()->loadPackage(types.first());
             QString path = pkg.defaultPackageRoot();
-            plugins.insert(name, QStringList() << plugin << path);
+            plugins.insert(types.first(), path);
         }
 
         renderTypeTable(plugins);
@@ -670,5 +663,3 @@ void PackageTool::packageUninstalled(KJob *job)
 }
 
 } // namespace KPackage
-
-#include "moc_kpackagetool.cpp"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2019-09-29 12:45+0500\n"
 "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
 "Language-Team: English <kde-i18n-doc@kde.org>\n"
@@ -33,133 +33,53 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr "Файли мизи корие, ки ин бастаро тасвир мекунад."
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "Қобилияти дастрасӣ"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "Оғозкунандаи барномаҳо"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "Ситopашинoсӣ"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "Вақт ва сана"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "Абзорҳои барномарезӣ"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "Илму маърифат"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "Муҳити атроф ва обу ҳаво"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "Мисолҳо"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "Низоми файлӣ"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "Дилхушӣ ва бозиҳо"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "Графика"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "Забон"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "Нақшакашӣ"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "Барномаҳои гуногун"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "Мултимедиа"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "Хизматҳои онлайн"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "Самаранокӣ"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "Иттилооти низом"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "Барномаҳои муфид"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "Равзанаҳо ва вазифаҳо"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Боркунии насбкунанда барои бастаи навъи %1 қатъ шуд. Хатои пайдошуда: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Эҷодкунии ҷузвадони бастаи рушагӣ (root) қатъ шуд: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Чунин файл нест: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "Кушодани файли баста қатъ шуд, шакли бойгонӣ дастгирӣ намешавад: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Кушодани файли баста қатъ шуд: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "Кушодани иттилооти фавқ қатъ шуд: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Ягон файли иттилооти фавқ дар баста нест: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Номи васлкунаки баста муайян карда нашуд: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "Номи васлкунаки бастаи %1 аломатҳои нодурустро дар бар мегирад"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
@@ -167,49 +87,49 @@ msgstr ""
 "Бастаи нав дорои навъи дигар аз версияи куҳна мебошад, ки аллакай насб карда "
 "шудааст."
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr "Тозакунии насби куҳнаи %1 аз макони %2 ғайриимкон аст. Хато: %3"
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr ""
 "Версияи %1 аз %2 насб намешавад. Версияи %3 аллакай насб карда шудааст."
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 аллакай вуҷуд дорад"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "Вобастагӣ насб карда намешавад: '%1'"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Баста ба ҷойи таъйиноти зерин интиқол дода намешавад: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Баста ба ҷойи таъйиноти зерин нусха бардошта намешавад: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 вуҷуд надорад"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Несткунии баста аз макони зерин қатъ шуд: %1"
@@ -294,7 +214,7 @@ msgid "One of install, remove, upgrade or list is required."
 msgstr ""
 "Яке аз имконот лозим аст: насб кардан, тоза кардан, такмил додан ё рӯйхат"
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr "Хато: Иттилооти фавқи васлкунак ёфт нашуд: %1\n"
@@ -329,7 +249,7 @@ msgstr "    Муаллиф : %1"
 msgid "      Path : %1"
 msgstr "      Масир : %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -341,72 +261,67 @@ msgstr ""
 "Имконоти умумӣ ва бастаи решагӣ бо ҳамдигар мухолифат мекунанд, лутфан, "
 "танҳо як имконро интихоб намоед."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Номи барномаи иловашуда"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Навъи хидмат"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Масир"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Навъи бастаҳое, ки ба воситаи ин абзор насб карда мешаванд:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "Дарунсохт:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "Бастаҳо/Умумӣ"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "Бастаҳо/QML-и умумӣ"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Бо васлкунак таъминшуда:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "%1 бо муваффақият такмил дода шуд"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "%1 бо муваффақият насб карда шуд"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Хато: Насбкунии %1 қатъ шуд: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "Такмилдиҳии баста аз файл: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr " Насби %1 бо муваффақият лағв карда шуд"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Хато: Лағвкунии насби %1 қатъ шуд: %2"
@@ -523,3 +438,87 @@ msgstr "Иттилооти фавқро барои бастаи <path> эҷод 
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "Иттилооти фавқро барои баста дар <path> эҷод мекунад"
+
+#~ msgid "Accessibility"
+#~ msgstr "Қобилияти дастрасӣ"
+
+#~ msgid "Application Launchers"
+#~ msgstr "Оғозкунандаи барномаҳо"
+
+#~ msgid "Astronomy"
+#~ msgstr "Ситopашинoсӣ"
+
+#~ msgid "Date and Time"
+#~ msgstr "Вақт ва сана"
+
+#~ msgid "Development Tools"
+#~ msgstr "Абзорҳои барномарезӣ"
+
+#~ msgid "Education"
+#~ msgstr "Илму маърифат"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "Муҳити атроф ва обу ҳаво"
+
+#~ msgid "Examples"
+#~ msgstr "Мисолҳо"
+
+#~ msgid "File System"
+#~ msgstr "Низоми файлӣ"
+
+#~ msgid "Fun and Games"
+#~ msgstr "Дилхушӣ ва бозиҳо"
+
+#~ msgid "Graphics"
+#~ msgstr "Графика"
+
+#~ msgid "Language"
+#~ msgstr "Забон"
+
+#~ msgid "Mapping"
+#~ msgstr "Нақшакашӣ"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Барномаҳои гуногун"
+
+#~ msgid "Multimedia"
+#~ msgstr "Мултимедиа"
+
+#~ msgid "Online Services"
+#~ msgstr "Хизматҳои онлайн"
+
+#~ msgid "Productivity"
+#~ msgstr "Самаранокӣ"
+
+#~ msgid "System Information"
+#~ msgstr "Иттилооти низом"
+
+#~ msgid "Utilities"
+#~ msgstr "Барномаҳои муфид"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "Равзанаҳо ва вазифаҳо"
+
+#~ msgid "Addon Name"
+#~ msgstr "Номи барномаи иловашуда"
+
+#~ msgid "Service Type"
+#~ msgstr "Навъи хидмат"
+
+#~ msgid "Generating %1%2"
+#~ msgstr "Эҷодкунии %1%2"
+
+#~ msgid "Didn't write %1%2"
+#~ msgstr "%1%2 навишта нашуд"
+
+#~ msgid "Generating %1/%2"
+#~ msgstr "Эҷодкунии %1/%2"
+
+#~ msgid "Cannot write %1/%2"
+#~ msgstr "%1/%2 навишта нашуд"
+
+#~ msgid "Could not remove index file %1"
+#~ msgstr "Тозакунии файли намоябандии %1 қатъ шуд"
+
+#~ msgid "Removed %1"
+#~ msgstr "%1 тоза шуд"

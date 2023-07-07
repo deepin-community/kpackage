@@ -1,13 +1,13 @@
 # Copyright (C) YEAR This_file_is_part_of_KDE
 # This file is distributed under the same license as the PACKAGE package.
 #
-# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2021.
+# Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>, 2014, 2015, 2016, 2017, 2018, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
-"PO-Revision-Date: 2021-01-23 07:23+0100\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
+"PO-Revision-Date: 2022-07-31 09:01+0200\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: Polish <kde-i18n-doc@kde.org>\n"
 "Language: pl\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Lokalize 20.12.1\n"
+"X-Generator: Lokalize 22.03.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -33,181 +33,101 @@ msgstr "lukasz.wojnilowicz@gmail.com"
 msgid "Desktop file that describes this package."
 msgstr "Plik pulpitu, który opisuje ten pakiet."
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "Dostępność"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "Programy uruchamiające"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "Astronomia"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "Data i czas"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "Narzędzia programistów"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "Edukacja"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "Pogoda i środowisko"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "Przykłady"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "System plików"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "Zabawy i gry"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "Grafika"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "Język"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "Mapowanie"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "Różne"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "Multimedia"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "Usługi sieciowe"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "Produktywność"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "Informacje systemowe"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "Narzędzia"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "Okna i zadania"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Nie można wczytać instalatora pakietu rodzaju %1. Zgłoszony błąd to: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Nie można utworzyć głównego katalogu pakietów: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Nie ma takiego pliku: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr ""
 "Nie można otworzyć pliku pakietu, nieobsługiwany format archiwum: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Nie można otworzyć pliku pakietu: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "Nie można otworzyć pliku metadanych: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Brak pliku metadanych w pakiecie: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Nie podano nazwy wtyczki: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "Nazwa wtyczki %1 zawiera nieprawidłowe znaki"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr "Rodzaj nowego pakietu różni się od rodzaju wersji zainstalowanej."
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr "Nie można usunąć starej instalacji %1 położonej w %2. błąd: %3"
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr "Nieinstalowanie %2 w wersji %1. Zainstalowano wersję %3."
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 już istnieje"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "Nie można wgrać zależności: '%1'"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Nie można przenieść pakietu do miejsca docelowego: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Nie można skopiować pakietu do miejsca docelowego: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr "ścieżka pakietu została usunięta ręcznie"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 nie istnieje"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Nie można usunąć pakietu z: %1"
@@ -291,7 +211,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "Wymagane jest jedno z: install, remove, upgrade lub list."
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr "Błąd: Nie można znaleźć metadanych wtyczki: %1\n"
@@ -326,7 +246,7 @@ msgstr "    Autor : %1"
 msgid "      Path : %1"
 msgstr "      Ścieżka : %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -338,72 +258,67 @@ msgstr ""
 "Opcje packageroot i global są ze sobą w konflikcie, proszę wybrać tylko "
 "jedną z nich."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Nazwa dodatku"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Rodzaj usługi"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr "Nazwa struktury KPackage"
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Ścieżka"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Rodzaje pakietów wgrywalnych z danym narzędziem:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "Wbudowane w:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "KPackage/Zwykłe"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "KPackage/ZwykłeQML"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Dostarczone przez wtyczki:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "Pomyślnie unowocześniono %1"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Pomyślnie wgrano %1"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Błąd: Nieudane wgrywanie %1: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "Uaktualnianie pakietu z pliku: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "Pomyślnie odinstalowano %1"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Błąd: Nieudane odinstalowywanie %1: %2"
@@ -517,3 +432,600 @@ msgstr "Wypisuje metadane dla <ścieżki> tego pakietu "
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "Wypisuje metadane dla tego pakietu do <ścieżki>"
+
+#~ msgid "Accessibility"
+#~ msgstr "Dostępność"
+
+#~ msgid "Application Launchers"
+#~ msgstr "Programy uruchamiające"
+
+#~ msgid "Astronomy"
+#~ msgstr "Astronomia"
+
+#~ msgid "Date and Time"
+#~ msgstr "Data i czas"
+
+#~ msgid "Development Tools"
+#~ msgstr "Narzędzia programistów"
+
+#~ msgid "Education"
+#~ msgstr "Edukacja"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "Pogoda i środowisko"
+
+#~ msgid "Examples"
+#~ msgstr "Przykłady"
+
+#~ msgid "File System"
+#~ msgstr "System plików"
+
+#~ msgid "Fun and Games"
+#~ msgstr "Zabawy i gry"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafika"
+
+#~ msgid "Language"
+#~ msgstr "Język"
+
+#~ msgid "Mapping"
+#~ msgstr "Mapowanie"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Różne"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Online Services"
+#~ msgstr "Usługi sieciowe"
+
+#~ msgid "Productivity"
+#~ msgstr "Produktywność"
+
+#~ msgid "System Information"
+#~ msgstr "Informacje systemowe"
+
+#~ msgid "Utilities"
+#~ msgstr "Narzędzia"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "Okna i zadania"
+
+#~ msgid "Addon Name"
+#~ msgstr "Nazwa dodatku"
+
+#~ msgid "Service Type"
+#~ msgstr "Rodzaj usługi"
+
+#~ msgid "Generating %1%2"
+#~ msgstr "Tworzenie %1%2"
+
+#~ msgid "Didn't write %1%2"
+#~ msgstr "Niezapisanych %1%2"
+
+#~ msgid "Generating %1/%2"
+#~ msgstr "Tworzenie %1/%2"
+
+#~ msgid "Cannot write %1/%2"
+#~ msgstr "Nie można zapisać %1/%2"
+
+#~ msgid "Could not remove index file %1"
+#~ msgstr "Nie można usunąć pliku indeksu %1"
+
+#~ msgid "Removed %1"
+#~ msgstr "Usunięto %1"
+
+#, fuzzy
+#~| msgid "Desktop file that describes this package."
+#~ msgid "JSON file that describes this package."
+#~ msgstr "Plik pulpitu, który opisuje ten pakiet."
+
+#~ msgid "Generating %1/kpluginindex.json"
+#~ msgstr "Tworzenie %1/kpluginindex.json"
+
+#, fuzzy
+#~| msgid "Generating %1/kpluginindex.json"
+#~ msgid "Cannot write to %1/kpluginindex.json"
+#~ msgstr "Tworzenie %1/kpluginindex.json"
+
+#~ msgid "%1 has NoDisplay enabled\n"
+#~ msgstr "%1 ma włączony BezWyświetlacza\n"
+
+#~ msgctxt ""
+#~ "theme, wallpaper, etc. are keywords, but they may be translated, as both "
+#~ "versions are recognized by the application (if translated, should be same "
+#~ "as messages with 'package type' context below)"
+#~ msgid ""
+#~ "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+#~ "layout-template, etc."
+#~ msgstr ""
+#~ "Rodzaj pakietu, np. motyw, tapeta, plazmoid, silnik danych, program "
+#~ "uruchamiający, schemat-układ itp."
+
+#~ msgid "Provided by .desktop files:"
+#~ msgstr "Dostarczone przez pliki .desktop:"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "Cancel"
+#~ msgstr "Anuluj"
+
+#~ msgid "Script initialization failed"
+#~ msgstr "Nie udało się uruchomić skryptu"
+
+#~ msgid "Unknown"
+#~ msgstr "Nieznany"
+
+#~ msgid "Activate %1 Widget"
+#~ msgstr "Włącz element interfejsu: %1"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "Remove this %1"
+#~ msgstr "Usuń ten %1"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings"
+#~ msgstr "Ustawienia %1"
+
+#~ msgid "Lock Widgets"
+#~ msgstr "Zablokuj elementy interfejsu"
+
+#~ msgid "Unlock Widgets"
+#~ msgstr "Odblokuj elementy interfejsu"
+
+#~ msgid "Whether or not to create an on-disk cache for the theme."
+#~ msgstr "Określa czy tworzyć pamięć podręczną dla dysku dla wystroju."
+
+#~ msgid ""
+#~ "The maximum size of the on-disk Theme cache in kilobytes. Note that these "
+#~ "files are sparse files, so the maximum size may not be used. Setting a "
+#~ "larger size is therefore often quite safe."
+#~ msgstr ""
+#~ "Największy rozmiar pamięci podręcznej na dysku w kilobajtach dla "
+#~ "wystrojów. Miej na uwadze, że pliki te są niewielki i największy rozmiar "
+#~ "może zostać niewykorzystany. Ustawienie większego rozmiaru jest zazwyczaj "
+#~ "całkiem bezpieczne."
+
+#~ msgctxt "misc category"
+#~ msgid "Miscellaneous"
+#~ msgstr "Różne"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings..."
+#~ msgstr "Ustawienia %1..."
+
+#~ msgid "The %2 widget did not define which ScriptEngine to use."
+#~ msgstr ""
+#~ "Element interfejsu %2 nie określił wykorzystywanego silnika skryptów."
+
+#~ msgctxt "Package file, name of the widget"
+#~ msgid "Could not open the %1 package required for the %2 widget."
+#~ msgstr ""
+#~ "Nie można otworzyć pakietu %1 wymaganego przez element interfejsu %2."
+
+#~ msgctxt ""
+#~ "API or programming language the widget was written in, name of the widget"
+#~ msgid "Could not create a %1 ScriptEngine for the %2 widget."
+#~ msgstr ""
+#~ "Nie można uruchomić modułu obsługi skryptów (ScriptEngine) %1 dla "
+#~ "elementu interfejsu %2."
+
+#~ msgid "Alternatives..."
+#~ msgstr "Alternatywy..."
+
+#~ msgid "The widget \"%1\" has been removed."
+#~ msgstr "Element interfejsu \"%1\" został usunięty."
+
+#~ msgid "A Panel has been removed."
+#~ msgstr "Panel został usunięty."
+
+#~ msgid "A Desktop has been removed."
+#~ msgstr "Pulpit został usunięty."
+
+#~ msgid "Undo"
+#~ msgstr "Cofnij"
+
+#~ msgid "Widget Settings"
+#~ msgstr "Ustawienia elementu interfejsu"
+
+#~ msgid "Remove this Widget"
+#~ msgstr "Usuń ten element interfejsu"
+
+#~ msgid "Run the Associated Application"
+#~ msgstr "Uruchom powiązany program"
+
+#~ msgid "Open with %1"
+#~ msgstr "Otwórz w %1"
+
+#~ msgid "Remove this Panel"
+#~ msgstr "Usuń ten panel"
+
+#~ msgid "Remove this Activity"
+#~ msgstr "Usuń to działanie"
+
+#~ msgid "Activity Settings"
+#~ msgstr "Ustawienia działań"
+
+#~ msgid "Add Widgets..."
+#~ msgstr "Dodaj elementy interfejsu..."
+
+#~ msgid "Could not create local service directory: %1"
+#~ msgstr "Nie można utworzyć lokalnego katalogu usługi: %1"
+
+#~ msgid ""
+#~ "Could not register package as service (this is not necessarily fatal): %1"
+#~ msgstr ""
+#~ "Nie można zarejestrować pakietu jako usługi (niekoniecznie jest to błąd "
+#~ "fatalny): %1"
+
+#~ msgid "Configuration UI pages model"
+#~ msgstr "Model stron ustawiania układu sterownia użytkownika"
+
+#~ msgid "Configuration XML file"
+#~ msgstr "Plik ustawień XML"
+
+#~ msgid "Service Descriptions"
+#~ msgstr "Opis usługi"
+
+#~ msgid "Images for dialogs"
+#~ msgstr "Obrazy dla okien dialogowych"
+
+#~ msgid "Generic dialog background"
+#~ msgstr "Zwykłe tło okien dialogowych"
+
+#~ msgid "Theme for the logout dialog"
+#~ msgstr "Wystrój okna wylogowania"
+
+#~ msgid "Wallpaper packages"
+#~ msgstr "Pakiety tapet"
+
+#~ msgid "Images for widgets"
+#~ msgstr "Obrazy elementów interfejsu"
+
+#~ msgid "Background image for widgets"
+#~ msgstr "Obraz tła elementów interfejsu"
+
+#~ msgid "Analog clock face"
+#~ msgstr "Wygląd zegara analogowego"
+
+#~ msgid "Background image for panels"
+#~ msgstr "Obraz tła paneli"
+
+#~ msgid "Background for graphing widgets"
+#~ msgstr "Tło elementów interfejsu związanych z grafiką"
+
+#~ msgid "Background image for tooltips"
+#~ msgstr "Obraz tła dla podpowiedzi"
+
+#~ msgid "Opaque images for dialogs"
+#~ msgstr "Nieprzezroczyste obrazy okien dialogowych"
+
+#~ msgid "Opaque generic dialog background"
+#~ msgstr "Nieprzezroczyste zwykłe tło okien dialogowych"
+
+#~ msgid "Opaque theme for the logout dialog"
+#~ msgstr "Nieprzezroczysty wystrój okna wylogowania"
+
+#~ msgid "Opaque images for widgets"
+#~ msgstr "Nieprzezroczyste obrazy elementów interfejsu"
+
+#~ msgid "Opaque background image for panels"
+#~ msgstr "Nieprzezroczysty obraz tła paneli"
+
+#~ msgid "Opaque background image for tooltips"
+#~ msgstr "Nieprzezroczysty obraz tła dla podpowiedzi"
+
+#~ msgid "Low color images for dialogs"
+#~ msgstr "Obrazy o niskiej liczbie kolorów dla okien dialogowych"
+
+#~ msgid "Low color generic dialog background"
+#~ msgstr "Zwykłe tło o niskiej liczbie kolorów dla okien dialogowych"
+
+#~ msgid "Low color theme for the logout dialog"
+#~ msgstr "Wystój o niskiej liczbie kolorów dla okna wylogowywania"
+
+#~ msgid "Low color background image for widgets"
+#~ msgstr "Obraz tła o niskiej liczbie kolorów dla elementów interfejsu"
+
+#~ msgid "Low color analog clock face"
+#~ msgstr "Wygląd zegara analogowego o niskiej liczbie kolorów"
+
+#~ msgid "Low color background image for panels"
+#~ msgstr "Obraz tła o niskiej liczbie barw dla paneli"
+
+#~ msgid "Low color background for graphing widgets"
+#~ msgstr "Tło o niskiej liczbie kolorów dla elementów interfejsu z wykresami"
+
+#~ msgid "Low color background image for tooltips"
+#~ msgstr "Obraz tła o niskiej liczbie kolorów dla podpowiedzi"
+
+#~ msgid "KColorScheme configuration file"
+#~ msgstr "Plik ustawień KColorScheme"
+
+#~ msgid ""
+#~ "Sharing a widget on the network allows you to access this widget from "
+#~ "another computer as a remote control."
+#~ msgstr ""
+#~ "Współdzielenie elementu interfejsu w sieci pozwala uzyskać dostęp do tego "
+#~ "elementu interfejsu z innego komputera jako pilota."
+
+#~ msgid "Share this widget on the network"
+#~ msgstr "Współdziel ten element interfejsu w sieci"
+
+#~ msgid "Allow everybody to freely access this widget"
+#~ msgstr "Zezwól każdemu na dostęp do tego elementu interfejsu"
+
+#~ msgctxt "Error message, tried to start an invalid service"
+#~ msgid "Invalid (null) service, can not perform any operations."
+#~ msgstr "Niepoprawna (pusta) usługa. Nie można wykonać żadnej operacji."
+
+#~ msgctxt "package type"
+#~ msgid "plasmoid"
+#~ msgstr "plazmoid"
+
+#~ msgctxt "package type"
+#~ msgid "package"
+#~ msgstr "pakiet"
+
+#~ msgctxt "package type"
+#~ msgid "theme"
+#~ msgstr "wystrój"
+
+#~ msgctxt "package type"
+#~ msgid "dataengine"
+#~ msgstr "silnik danych"
+
+#~ msgctxt "package type"
+#~ msgid "runner"
+#~ msgstr "program uruchamiający"
+
+#~ msgctxt "package type"
+#~ msgid "wallpaperplugin"
+#~ msgstr "wtyczka tapety"
+
+#~ msgctxt "package type"
+#~ msgid "lookandfeel"
+#~ msgstr "wyglądiodczucia"
+
+#~ msgctxt "package type"
+#~ msgid "shell"
+#~ msgstr "powłoka"
+
+#~ msgctxt "package type"
+#~ msgid "layout-template"
+#~ msgstr "szablon-układ"
+
+#~ msgctxt "package type"
+#~ msgid "kwineffect"
+#~ msgstr "efektkwin"
+
+#~ msgctxt "package type"
+#~ msgid "windowswitcher"
+#~ msgstr "przełącznikokien"
+
+#~ msgctxt "package type"
+#~ msgid "kwinscript"
+#~ msgstr "skryptkwin"
+
+#~ msgid "Could not find a suitable installer for package of type %1"
+#~ msgstr "Nie można znaleźć odpowiedniego instalatora pakietu rodzaju %1"
+
+#~ msgid "Type Argument"
+#~ msgstr "Wpisz argument"
+
+#~ msgid "DataEngine"
+#~ msgstr "Silnik danych"
+
+#~ msgid "Layout Template"
+#~ msgstr "Szablon rozmieszczenia"
+
+#~ msgid "Look and Feel"
+#~ msgstr "Wygląd i odczucia"
+
+#~ msgid "Plasmoid"
+#~ msgstr "Plazmoid"
+
+#~ msgid "Runner"
+#~ msgstr "Program uruchamiający"
+
+#~ msgid "Shell"
+#~ msgstr "Powłoka"
+
+#~ msgid "Theme"
+#~ msgstr "Wystrój"
+
+#~ msgid "Wallpaper Images"
+#~ msgstr "Obrazy tapet"
+
+#~ msgid "Animated Wallpaper"
+#~ msgstr "Animowana tapeta"
+
+#~ msgid "KWin Effect"
+#~ msgstr "Efekt KWin"
+
+#~ msgid "KWin Window Switcher"
+#~ msgstr "Przełącznik okien KWin"
+
+#~ msgid "KWin Script"
+#~ msgstr "Skrypt KWin"
+
+#~ msgid "Error loading QML file: %1"
+#~ msgstr "Błąd wczytywania pliku QML: %1"
+
+#~ msgid "Error loading Applet: package inexistent. %1"
+#~ msgstr "Błąd wczytywania apletu: pakiet nie istnieje. %1"
+
+#~ msgid "%1 Settings"
+#~ msgstr "%1 Ustawienia "
+
+#~ msgid "Default settings for theme, etc."
+#~ msgstr "Domyślne ustawienia dla wystroju, itp."
+
+#~ msgid "Color scheme to use for applications."
+#~ msgstr "Zestaw kolorów używanych w aplikacjach."
+
+#~ msgid "Preview Images"
+#~ msgstr "Podgląd obrazów"
+
+#~ msgid "Preview for the Login Manager"
+#~ msgstr "Podgląd dla ekranu logowania"
+
+#~ msgid "Preview for the Lock Screen"
+#~ msgstr "Podgląd dla ekranu blokującego"
+
+#~ msgid "Preview for the Userswitcher"
+#~ msgstr "Podgląd dla przełącznika użytkownika"
+
+#~ msgid "Preview for the Virtual Desktop Switcher"
+#~ msgstr "Podgląd dla przełącznika wirtualnego pulpitu"
+
+#~ msgid "Preview for Splash Screen"
+#~ msgstr "Podgląd dla ekranu powitalnego"
+
+#~ msgid "Preview for KRunner"
+#~ msgstr "Podgląd dla KRunner"
+
+#~ msgid "Preview for the Window Decorations"
+#~ msgstr "Podgląd wystroju okien"
+
+#~ msgid "Preview for Window Switcher"
+#~ msgstr "Podgląd dla przełącznika okien"
+
+#~ msgid "Login Manager"
+#~ msgstr "Ekran logowania"
+
+#~ msgid "Main Script for Login Manager"
+#~ msgstr "Główny skrypt dla ekranu logowania"
+
+#~ msgid "Logout Dialog"
+#~ msgstr "Okno dialogowe wylogowywania"
+
+#~ msgid "Main Script for Logout Dialog"
+#~ msgstr "Główny skrypt dla okna dialogowego wylogowywania"
+
+#~ msgid "Screenlocker"
+#~ msgstr "Blokada ekranu"
+
+#~ msgid "Main Script for Lock Screen"
+#~ msgstr "Główny skrypt dla blokady ekranu"
+
+#~ msgid "UI for fast user switching"
+#~ msgstr "Układ sterownia do szybkiego przełączania użytkowników"
+
+#~ msgid "Main Script for User Switcher"
+#~ msgstr "Główny skrypt dla przełącznika użytkowników"
+
+#~ msgid "Virtual Desktop Switcher"
+#~ msgstr "Przełącznik wirtualnych pulpitów"
+
+#~ msgid "Main Script for Virtual Desktop Switcher"
+#~ msgstr "Główny skrypt dla przełącznika wirtualnych pulpitów"
+
+#~ msgid "On-Screen Display Notifications"
+#~ msgstr "Powiadomienia na wyświetlaczu"
+
+#~ msgid "Main Script for On-Screen Display Notifications"
+#~ msgstr "Główny skrypt dla powiadomień na wyświetlaczu"
+
+#~ msgid "Splash Screen"
+#~ msgstr "Ekran powitalny"
+
+#~ msgid "Main Script for Splash Screen"
+#~ msgstr "Główny skrypt dla ekranu powitalnego"
+
+#~ msgid "KRunner UI"
+#~ msgstr "Układ sterowania KRunner"
+
+#~ msgid "Main Script KRunner"
+#~ msgstr "Główny skrypt dla KRunner"
+
+#~ msgid "Window Decoration"
+#~ msgstr "Wystrój okien"
+
+#~ msgid "Main Script for Window Decoration"
+#~ msgstr "Główny skrypt dla wystroju okien"
+
+#~ msgid "Window Switcher"
+#~ msgstr "Przełącznik okien"
+
+#~ msgid "Main Script for Window Switcher"
+#~ msgstr "Główny skrypt dla przełącznika okien"
+
+#~ msgid "Fetching file type..."
+#~ msgstr "Pobieranie rodzaju pliku..."
+
+#~ msgid "Widgets"
+#~ msgstr "Elementy interfejsu"
+
+#~ msgid "Icon"
+#~ msgstr "Ikona"
+
+#~ msgid "Wallpaper"
+#~ msgstr "Tapeta"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "%1 Options"
+#~ msgstr "Opcje %1"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "Do you really want to remove this %1?"
+#~ msgstr "Czy na pewno usunąć ten %1?"
+
+#~ msgid "Applets furniture"
+#~ msgstr "Wystrój apletów"
+
+#~ msgid "Explorer UI for adding widgets"
+#~ msgstr "Układ sterowania dodawaniem elementów interfejsu"
+
+#~ msgid "User interface for the views that will show containments"
+#~ msgstr "Układ sterowania dla widoków, które pokażą pojemniki"
+
+#~ msgid "Default layout file"
+#~ msgstr "Plik domyślnego układu"
+
+#~ msgid "Default plugins for containments, containmentActions, etc."
+#~ msgstr "Domyślne wtyczki dla pojemników, działań pojemników itp.."
+
+#~ msgid "Error message shown when an applet fails to load"
+#~ msgstr "Wiadomość błędu pokazywana przy nieudanym wczytywaniu apletu"
+
+#~ msgid "QML component that shows an applet in a popup"
+#~ msgstr "Składnik QML, który pokazuje aplet w oknie wysuwanym"
+
+#~ msgid ""
+#~ "Compact representation of an applet when collapsed in a popup, for "
+#~ "instance as an icon. Applets can override this component."
+#~ msgstr ""
+#~ "Zwarte przedstawienie apletu w momencie jego zwinięcia w oknie wysuwanym, "
+#~ "na przykład jako ikona. aplety mogą zastępować ten składnik."
+
+#~ msgid "QML component for the configuration dialog for applets"
+#~ msgstr "Składnik QML dla okna dialogowego ustawień dla apletów"
+
+#~ msgid "QML component for the configuration dialog for containments"
+#~ msgstr "Składnik QML dla okna dialogowego ustawień dla pojemników"
+
+#~ msgid "Panel configuration UI"
+#~ msgstr "Układ sterowania ustawiania panelu"
+
+#~ msgid "QML component for choosing an alternate applet"
+#~ msgstr "Składnik QML do wybierania alternatywnego apletu"
+
+#~ msgid "Widgets explorer UI"
+#~ msgstr "Układ sterowania do przeglądania elementów interfejsu"
+
+#~ msgid ""
+#~ "A UI for writing, loading and running desktop scripts in the current live "
+#~ "session"
+#~ msgstr ""
+#~ "Układ sterowania do pisania, wczytywania i uruchamiania skryptów pulpitu "
+#~ "w sesji na żywo"
+
+#~ msgid "Theme preview thumbnail"
+#~ msgstr "Miniatura podglądu wystroju"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"

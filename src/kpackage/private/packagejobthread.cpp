@@ -108,11 +108,14 @@ bool PackageJobThread::install(const QString &src, const QString &dest)
 
 static QString resolveHandler(const QString &scheme)
 {
-    QString candidatePath = QStringLiteral(KDE_INSTALL_FULL_LIBEXECDIR_KF "/kpackagehandlers/%1handler").arg(scheme);
-    if (qEnvironmentVariableIsSet("KPACKAGE_DEP_RESOLVERS_PATH")) {
-        candidatePath = QStringLiteral("%1/%2handler").arg(QString::fromUtf8(qgetenv("KPACKAGE_DEP_RESOLVERS_PATH")), scheme);
+    QString envOverride = qEnvironmentVariable("KPACKAGE_DEP_RESOLVERS_PATH");
+    QStringList searchDirs;
+    if (!envOverride.isEmpty()) {
+        searchDirs.push_back(envOverride);
     }
-    return QFile::exists(candidatePath) ? candidatePath : QString();
+    searchDirs.append(QStringLiteral(KDE_INSTALL_FULL_LIBEXECDIR_KF "/kpackagehandlers"));
+    // We have to use QStandardPaths::findExecutable here to handle the .exe suffix on Windows.
+    return QStandardPaths::findExecutable(scheme + QLatin1String("handler"), searchDirs);
 }
 
 bool PackageJobThread::installDependency(const QUrl &destUrl)
@@ -214,19 +217,20 @@ bool PackageJobThread::installPackage(const QString &src, const QString &dest, O
     KPluginMetaData meta;
     if (!entries.isEmpty()) {
         const QString metadataFilePath = entries.first().filePath();
+#if KCOREADDONS_BUILD_DEPRECATED_SINCE(5, 92)
         if (metadataFilePath.endsWith(QLatin1String(".desktop"))) {
             meta = KPluginMetaData::fromDesktopFile(metadataFilePath, {QStringLiteral(":/kservicetypes5/kpackage-generic.desktop")});
         } else {
-            QFile f(metadataFilePath);
-            if (!f.open(QIODevice::ReadOnly)) {
-                qCWarning(KPACKAGE_LOG) << "Couldn't open metadata file" << src << path;
-                d->errorMessage = i18n("Could not open metadata file: %1", src);
-                d->errorCode = Package::JobError::MetadataFileMissingError;
-                return false;
-            }
-            QJsonObject metadataObject = QJsonDocument::fromJson(f.readAll()).object();
-            meta = KPluginMetaData(metadataObject, QString(), metadataFilePath);
+            meta = KPluginMetaData::fromJsonFile(metadataFilePath);
         }
+#else
+        meta = KPluginMetaData::fromJsonFile(metadataFilePath);
+#endif
+    } else {
+        qCWarning(KPACKAGE_LOG) << "Couldn't open metadata file" << src << path;
+        d->errorMessage = i18n("Could not open metadata file: %1", src);
+        d->errorCode = Package::JobError::MetadataFileMissingError;
+        return false;
     }
 
     if (!meta.isValid()) {
@@ -263,7 +267,14 @@ bool PackageJobThread::installPackage(const QString &src, const QString &dest, O
 
     if (QFile::exists(targetName)) {
         if (operation == Update) {
-            KPluginMetaData oldMeta(targetName + QLatin1String("/metadata.desktop"));
+            KPluginMetaData oldMeta;
+            if (QFileInfo::exists(targetName + QLatin1String("/metadata.json"))) {
+                oldMeta = KPluginMetaData::fromJsonFile(targetName + QLatin1String("/metadata.json"));
+#if KCOREADDONS_BUILD_DEPRECATED_SINCE(5, 92)
+            } else if (QFileInfo::exists(targetName + QLatin1String("/metadata.desktop"))) {
+                oldMeta = KPluginMetaData::fromDesktopFile(targetName + QLatin1String("/metadata.desktop"));
+#endif
+            }
 
             if (readKPackageTypes(oldMeta) != readKPackageTypes(meta)) {
                 d->errorMessage = i18n("The new package has a different type from the old version already installed.");
@@ -290,9 +301,15 @@ bool PackageJobThread::installPackage(const QString &src, const QString &dest, O
     }
 
     // install dependencies
+    const QStringList optionalDependencies{QStringLiteral("sddmtheme.knsrc")};
     const QStringList dependencies = meta.value(QStringLiteral("X-KPackage-Dependencies"), QStringList());
     for (const QString &dep : dependencies) {
         QUrl depUrl(dep);
+        const QString knsrcFilePath = QStandardPaths::locate(QStandardPaths::GenericDataLocation, QLatin1String("knsrcfiles/") + depUrl.host());
+        if (knsrcFilePath.isEmpty() && optionalDependencies.contains(depUrl.host())) {
+            qWarning() << "Skipping depdendency due to knsrc files being missing" << depUrl;
+            continue;
+        }
         if (!installDependency(depUrl)) {
             d->errorMessage = i18n("Could not install dependency: '%1'", dep);
             d->errorCode = Package::JobError::PackageCopyError;
@@ -386,5 +403,3 @@ Package::JobError PackageJobThread::errorCode() const
 }
 
 } // namespace KPackage
-
-#include "moc_packagejobthread_p.cpp"

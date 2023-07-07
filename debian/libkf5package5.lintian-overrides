@@ -1,2 +1,2 @@
 # It is intended to add dependency to libkf5globalaccel-bin.
-libkf5package5: symbols-declares-dependency-on-other-package kpackagetool5 (libKF5Package.so.5)
+libkf5package5: symbols-declares-dependency-on-other-package kpackagetool5 (libKF5Package.so.5) [symbols]
