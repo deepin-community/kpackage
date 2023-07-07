@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasma\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2014-01-31 21:06+0100\n"
 "Last-Translator: Samir Ribić <megaribi@epn.ba>\n"
 "Language-Team: bosanski <bs@li.org>\n"
@@ -37,189 +37,101 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr ""
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "Pristupačnost"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "pokretači programa"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "Astronomija"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "Datum i vrijeme"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "razvojne alatke"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "Obrazovanje"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "priroda i vrijeme"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "Primjeri"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "Datotečni sistem"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "zabava i igre"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "Grafika"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "Jezik"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "kartografija"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "Ostalo"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "Multimedija"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "servisi na vezi"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "Produktivnost"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "podaci o sistemu"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "Alatke"
-
-# >> @item applet category
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "prozori i zadaci"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "Ne mogu da učitam instalator za paket tipa %1. Prijavljena greška: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Nije moguće kreirati korijenski direktorijum paketa: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Nema te datoteke: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "Ne mogu otvoriti paket datoteku, nije podržan arhiv format: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Ne mogu otvoriti paket datoteku: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, fuzzy, kde-format
 #| msgid "Could not open package file: %1"
 msgid "Could not open metadata file: %1"
 msgstr "Ne mogu otvoriti paket datoteku: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Nema datoteke metapodataka u paketu: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Paket plugin imena nije specificiran: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "Paket plugin imena %1 sadrži karktere koji nisu validni"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 već postoji"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, fuzzy, kde-format
 #| msgid "Could not find requested component: %1"
 msgid "Could not install dependency: '%1'"
 msgstr "Ne mogu da nađem zahtijevanu komponentu: %1"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Ne mogu premjestiti paket na destinaciju: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Ne mogu kopirati paket na destinaciju: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 ne postoji"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Ne mogu obrisati paket sa: %1"
@@ -313,7 +225,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "Mora se zadati install, remove, upgrade ili list."
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, fuzzy, kde-format
 #| msgid "Error: Can't find plugin metadata: %1"
 msgid "Error: Can't find plugin metadata: %1\n"
@@ -350,7 +262,7 @@ msgstr "    Autor : %1"
 msgid "      Path : %1"
 msgstr "      Staza: %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, fuzzy, kde-format
 #| msgctxt ""
 #| "The user entered conflicting options packageroot and global, this is the "
@@ -368,75 +280,70 @@ msgstr ""
 "Opcije packageroot i global isključuju jedna drugu, zadajte samo jednu od "
 "njih."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Ime dodatka"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Tip servisa"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Staza"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Tipovi paketa koji se mogu instalisati ovim alatom"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "Ugrađeno:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, fuzzy, kde-format
 #| msgid "Package"
 msgid "KPackage/Generic"
 msgstr "Paket"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, fuzzy, kde-format
 #| msgid "Package"
 msgid "KPackage/GenericQML"
 msgstr "Paket"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Navedeni dodaci:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "Uspiješno nadograđen%1"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Uspješno instalirano: %1"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Greska: Instalacija %1 neuspijela:%2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, fuzzy, kde-format
 #| msgid "Could not open package file: %1"
 msgid "Upgrading package from file: %1"
 msgstr "Ne mogu otvoriti paket datoteku: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "Uspijesno izbrisan %1"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Greska: Brisanje %1 neuspijelo:%2"
@@ -548,3 +455,532 @@ msgstr "Generiši SHA1 hash za paket <path>"
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "Generiši SHA1 hash za paket <path>"
+
+#~ msgid "Accessibility"
+#~ msgstr "Pristupačnost"
+
+# >> @item applet category
+#~ msgid "Application Launchers"
+#~ msgstr "pokretači programa"
+
+#~ msgid "Astronomy"
+#~ msgstr "Astronomija"
+
+#~ msgid "Date and Time"
+#~ msgstr "Datum i vrijeme"
+
+# >> @item applet category
+#~ msgid "Development Tools"
+#~ msgstr "razvojne alatke"
+
+#~ msgid "Education"
+#~ msgstr "Obrazovanje"
+
+# >> @item applet category
+#~ msgid "Environment and Weather"
+#~ msgstr "priroda i vrijeme"
+
+#~ msgid "Examples"
+#~ msgstr "Primjeri"
+
+#~ msgid "File System"
+#~ msgstr "Datotečni sistem"
+
+# >> @item applet category
+#~ msgid "Fun and Games"
+#~ msgstr "zabava i igre"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafika"
+
+#~ msgid "Language"
+#~ msgstr "Jezik"
+
+# >> @item applet category
+#~ msgid "Mapping"
+#~ msgstr "kartografija"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Ostalo"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedija"
+
+# >> @item applet category
+#~ msgid "Online Services"
+#~ msgstr "servisi na vezi"
+
+#~ msgid "Productivity"
+#~ msgstr "Produktivnost"
+
+# >> @item applet category
+#~ msgid "System Information"
+#~ msgstr "podaci o sistemu"
+
+#~ msgid "Utilities"
+#~ msgstr "Alatke"
+
+# >> @item applet category
+#~ msgid "Windows and Tasks"
+#~ msgstr "prozori i zadaci"
+
+#~ msgid "Addon Name"
+#~ msgstr "Ime dodatka"
+
+#~ msgid "Service Type"
+#~ msgstr "Tip servisa"
+
+#, fuzzy
+#~| msgid "Could not open package file: %1"
+#~ msgid "Could not remove index file %1"
+#~ msgstr "Ne mogu otvoriti paket datoteku: %1"
+
+#, fuzzy
+#~| msgctxt "%1 is the name of the applet"
+#~| msgid "Remove this %1"
+#~ msgid "Removed %1"
+#~ msgstr "Ukloni ovaj %1"
+
+#~ msgctxt ""
+#~ "theme, wallpaper, etc. are keywords, but they may be translated, as both "
+#~ "versions are recognized by the application (if translated, should be same "
+#~ "as messages with 'package type' context below)"
+#~ msgid ""
+#~ "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+#~ "layout-template, etc."
+#~ msgstr ""
+#~ "Tip paketa, jedno od: plasmoid theme wallpaper dataengine runner layout-"
+#~ "template"
+
+#~ msgid "Provided by .desktop files:"
+#~ msgstr "Dato preko .desktop datoteka:"
+
+#~ msgid "Script initialization failed"
+#~ msgstr "Neuspjelo pripremanje skripte"
+
+#~ msgid "Unknown"
+#~ msgstr "Nepoznato"
+
+#~ msgid "Activate %1 Widget"
+#~ msgstr "Aktiviraj grafičku kontrolu %1"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "Remove this %1"
+#~ msgstr "Ukloni ovaj %1"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings"
+#~ msgstr "%1 Postavke"
+
+#~ msgid "Lock Widgets"
+#~ msgstr "Zaključaj grafičku kontrolu"
+
+#~ msgid "Unlock Widgets"
+#~ msgstr "Otključaj grafičku kontrolu"
+
+#~ msgctxt "misc category"
+#~ msgid "Miscellaneous"
+#~ msgstr "Ostalo"
+
+#, fuzzy
+#~| msgctxt "%1 is the name of the applet"
+#~| msgid "%1 Settings"
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings..."
+#~ msgstr "%1 Postavke"
+
+#~ msgid "The %2 widget did not define which ScriptEngine to use."
+#~ msgstr "Dodatak %2 nije odredio koji ScriptEngine će koristiti"
+
+#~ msgctxt "Package file, name of the widget"
+#~ msgid "Could not open the %1 package required for the %2 widget."
+#~ msgstr "Ne mogu da otvorim paket %1 neophodan za grafičku kontrolu %2."
+
+#~ msgctxt ""
+#~ "API or programming language the widget was written in, name of the widget"
+#~ msgid "Could not create a %1 ScriptEngine for the %2 widget."
+#~ msgstr "Ne mogu da stvorim skriptni motor %1 za grafičku kontrolu %2."
+
+#~ msgid "Widget Settings"
+#~ msgstr "Postavke grafičke kontrole"
+
+#~ msgid "Remove this Widget"
+#~ msgstr "Ukloni ovu grafičku kontrolu"
+
+#~ msgid "Run the Associated Application"
+#~ msgstr "Izvrši pridruženi program"
+
+#~ msgid "Remove this Panel"
+#~ msgstr "Ukloni ovaj panel"
+
+#~ msgid "Remove this Activity"
+#~ msgstr "Ukloni ovu aktivnost"
+
+#~ msgid "Activity Settings"
+#~ msgstr "Postavke aktivnosti"
+
+#~ msgid "Add Widgets..."
+#~ msgstr "Dodaj grafičke kontrole..."
+
+#~ msgid "Could not create local service directory: %1"
+#~ msgstr "Ne mogu kreirati lokalni servis direktorij: %1"
+
+#~ msgid ""
+#~ "Could not register package as service (this is not necessarily fatal): %1"
+#~ msgstr "Ne mogu registrovati paket kao servis (nije nužno fatalno): %1"
+
+#~ msgid "Configuration UI pages model"
+#~ msgstr "Konfiguracije UI stranica modela"
+
+# >> @item file definition
+#~ msgid "Configuration XML file"
+#~ msgstr "XML konfiguracijska datoteka"
+
+#~ msgid "Service Descriptions"
+#~ msgstr "Opis usluga"
+
+# >> @item directory definition
+#~ msgid "Images for dialogs"
+#~ msgstr "Slike za dijaloge"
+
+# >> @item file definition
+#~ msgid "Generic dialog background"
+#~ msgstr "Generička pozadina dijaloga"
+
+# >> @item file definition
+#~ msgid "Theme for the logout dialog"
+#~ msgstr "Tema za odjavni dijalog"
+
+#~ msgid "Wallpaper packages"
+#~ msgstr "Paketi pozadinskih slika"
+
+# >> @item directory definition
+#~ msgid "Images for widgets"
+#~ msgstr "Slike za grafičku kontrolu"
+
+# >> @item file definition
+#~ msgid "Background image for widgets"
+#~ msgstr "Pozadinska slika za grafičku kontrolu"
+
+# >> @item file definition
+#~ msgid "Analog clock face"
+#~ msgstr "Lice analognog sata"
+
+# >> @item file definition
+#~ msgid "Background image for panels"
+#~ msgstr "Pozadinska slika za panele"
+
+# >> @item file definition
+#~ msgid "Background for graphing widgets"
+#~ msgstr "Pozadina za grafičke kontrole"
+
+# >> @item file definition
+#~ msgid "Background image for tooltips"
+#~ msgstr "Pozadinska slika za oblačiće"
+
+# >> @item directory definition
+#~ msgid "Opaque images for dialogs"
+#~ msgstr "Neprozirne slike za dijaloge"
+
+# >> @item file definition
+#~ msgid "Opaque generic dialog background"
+#~ msgstr "Neprozirna generička pozadina dijaloga"
+
+# >> @item file definition
+#~ msgid "Opaque theme for the logout dialog"
+#~ msgstr "Neprozirna tema za odjavni dijalog"
+
+# >> @item directory definition
+#~ msgid "Opaque images for widgets"
+#~ msgstr "Neprozirne slike za grafičke kontrole"
+
+# >> @item file definition
+#~ msgid "Opaque background image for panels"
+#~ msgstr "Neprozirna pozadinska slika za panele"
+
+# >> @item file definition
+#~ msgid "Opaque background image for tooltips"
+#~ msgstr "Neprozirna pozadinska slika za oblačiće"
+
+# >> @item directory definition
+#~ msgid "Low color images for dialogs"
+#~ msgstr "malobojne slike za dijaloge"
+
+# >> @item file definition
+#~ msgid "Low color generic dialog background"
+#~ msgstr "malobojna generička pozadina dijaloga"
+
+# >> @item file definition
+#~ msgid "Low color theme for the logout dialog"
+#~ msgstr "malobojna tema za odjavni dijalog"
+
+# >> @item file definition
+#~ msgid "Low color background image for widgets"
+#~ msgstr "malobojna pozadinska slika za grafičke kontrole"
+
+# >> @item file definition
+#~ msgid "Low color analog clock face"
+#~ msgstr "malobojno lice analognog sata"
+
+# >> @item file definition
+#~ msgid "Low color background image for panels"
+#~ msgstr "malobojna pozadinska slika za panele"
+
+# >> @item file definition
+#~ msgid "Low color background for graphing widgets"
+#~ msgstr "malobojna pozadina za crtačke grafičke kontrole"
+
+# >> @item file definition
+#~ msgid "Low color background image for tooltips"
+#~ msgstr "malobojna pozadinska slika za oblačiće"
+
+# >> @item file definition
+#~ msgid "KColorScheme configuration file"
+#~ msgstr "postavnu datoteku šeme boja"
+
+#~ msgid ""
+#~ "Sharing a widget on the network allows you to access this widget from "
+#~ "another computer as a remote control."
+#~ msgstr ""
+#~ "Dijeljenje grafičke kontrole na mreži omogućava vam da pristupite toj "
+#~ "grafičkoj kontroli sa drugog računara kao daljinskim upravljačem."
+
+#~ msgid "Share this widget on the network"
+#~ msgstr "Podijeli ovu grafičku kontrolu na mreži"
+
+#~ msgid "Allow everybody to freely access this widget"
+#~ msgstr "Dozvoli svima slobodan pristup ovoj grafičkoj kontroli"
+
+#~ msgctxt "Error message, tried to start an invalid service"
+#~ msgid "Invalid (null) service, can not perform any operations."
+#~ msgstr "Neispravan (nulti) servis, ne može izvršiti nikakvu operaciju."
+
+#~ msgctxt "package type"
+#~ msgid "plasmoid"
+#~ msgstr "plasmoid"
+
+#~ msgctxt "package type"
+#~ msgid "package"
+#~ msgstr "paket"
+
+#~ msgctxt "package type"
+#~ msgid "theme"
+#~ msgstr "theme"
+
+# literal-segment: dataengine
+#~ msgctxt "package type"
+#~ msgid "dataengine"
+#~ msgstr "dataengine"
+
+# literal-segment: runner
+#~ msgctxt "package type"
+#~ msgid "runner"
+#~ msgstr "runner"
+
+#, fuzzy
+#~| msgid "Wallpaper packages"
+#~ msgctxt "package type"
+#~ msgid "wallpaperplugin"
+#~ msgstr "Paketi pozadinskih slika"
+
+#~ msgctxt "package type"
+#~ msgid "lookandfeel"
+#~ msgstr "izgled"
+
+#~ msgctxt "package type"
+#~ msgid "shell"
+#~ msgstr "školjka"
+
+# literal-segment: layout-template
+#~ msgctxt "package type"
+#~ msgid "layout-template"
+#~ msgstr "layout-template"
+
+#~ msgctxt "package type"
+#~ msgid "kwineffect"
+#~ msgstr "kwineffect"
+
+#~ msgctxt "package type"
+#~ msgid "windowswitcher"
+#~ msgstr "windowswitcher"
+
+#~ msgctxt "package type"
+#~ msgid "kwinscript"
+#~ msgstr "kwinscript"
+
+#, fuzzy
+#~| msgid "Could not delete package from: %1"
+#~ msgid "Could not find a suitable installer for package of type %1"
+#~ msgstr "Ne mogu obrisati paket sa: %1"
+
+#~ msgid "Type Argument"
+#~ msgstr "Tip argumenta"
+
+# >> @item directory definition
+#, fuzzy
+#~| msgid "Data Files"
+#~ msgid "DataEngine"
+#~ msgstr "opšte datoteke"
+
+# literal-segment: layout-template
+#~ msgid "Layout Template"
+#~ msgstr "Predložak rasporeda"
+
+#~ msgid "Look and Feel"
+#~ msgstr "Izgled i Osjećaj"
+
+#~ msgid "Plasmoid"
+#~ msgstr "Plazmoid"
+
+# literal-segment: runner
+#~ msgid "Runner"
+#~ msgstr "Trkač"
+
+#~ msgid "Shell"
+#~ msgstr "Školjka"
+
+#~ msgid "Theme"
+#~ msgstr "Tema"
+
+#, fuzzy
+#~| msgid "Wallpaper packages"
+#~ msgid "Wallpaper Images"
+#~ msgstr "Paketi pozadinskih slika"
+
+#~ msgid "KWin Effect"
+#~ msgstr "Efekti KWin-a"
+
+#~ msgid "KWin Window Switcher"
+#~ msgstr "KWin prebacivač prozora"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "KWin Script"
+#~ msgstr "glavnu datoteku skripte"
+
+#~ msgid "Error loading QML file: %1"
+#~ msgstr "Greška pri učitavanju QML datoteke: %1"
+
+#, fuzzy
+#~| msgctxt "%1 is the name of the applet"
+#~| msgid "%1 Settings"
+#~ msgid "%1 Settings"
+#~ msgstr "%1 Postavke"
+
+#, fuzzy
+#~| msgid "Themed Images"
+#~ msgid "Preview Images"
+#~ msgstr "Tematske slike"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Login Manager"
+#~ msgstr "glavnu datoteku skripte"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Logout Dialog"
+#~ msgstr "glavnu datoteku skripte"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Lock Screen"
+#~ msgstr "glavnu datoteku skripte"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for User Switcher"
+#~ msgstr "glavnu datoteku skripte"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script for Splash Screen"
+#~ msgstr "glavnu datoteku skripte"
+
+# >> @item file definition
+#, fuzzy
+#~| msgid "Main Script File"
+#~ msgid "Main Script KRunner"
+#~ msgstr "glavnu datoteku skripte"
+
+#, fuzzy
+#~| msgid "Lock Widgets"
+#~ msgid "Widgets"
+#~ msgstr "Zaključaj grafičku kontrolu"
+
+#, fuzzy
+#~| msgid "Wallpaper packages"
+#~ msgid "Wallpaper"
+#~ msgstr "Paketi pozadinskih slika"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "%1 Options"
+#~ msgstr "%1 Opcije"
+
+#~ msgid "Applets furniture"
+#~ msgstr "Applets furniture"
+
+#~ msgid "Explorer UI for adding widgets"
+#~ msgstr "Istraživač UI za dodavanje dodataka"
+
+#~ msgid "User interface for the views that will show containments"
+#~ msgstr "Korisnički interfejs za poglede koji će pokazati sadržaj"
+
+#~ msgid "Default layout file"
+#~ msgstr "Zadani izgled datoteke"
+
+#, fuzzy
+#~| msgid "Default plugins for containments, containmentActions etc"
+#~ msgid "Default plugins for containments, containmentActions, etc."
+#~ msgstr "Zadani plugini za sadržaje, akcije sadržaja itd"
+
+#~ msgid "Error message shown when an applet fails to load"
+#~ msgstr "Poruka za grešku kada se applet ne može učitati"
+
+#~ msgid "QML component that shows an applet in a popup"
+#~ msgstr "QML komponenta koja pokazuje applet u iskočnom prozoru"
+
+#, fuzzy
+#~| msgid ""
+#~| "Compact representation of an applet when collapsed in a popup, for "
+#~| "instance as an icon. applets can override this component."
+#~ msgid ""
+#~ "Compact representation of an applet when collapsed in a popup, for "
+#~ "instance as an icon. Applets can override this component."
+#~ msgstr ""
+#~ "Kompaktna zastupljenost appleta kada se sažme u iskočnom prozoru, na "
+#~ "primjer kao ikona. appleti mogu nadjačati ovu komponentu."
+
+#~ msgid "QML component for the configuration dialog for applets"
+#~ msgstr "QML komponenta za konfiguracijski dijalog za applet"
+
+#~ msgid "QML component for the configuration dialog for containments"
+#~ msgstr "QML komponenta za konfiguracijski dijalog za sadržaj"
+
+#~ msgid "Panel configuration UI"
+#~ msgstr "Konfiguracija ploče UI"
+
+#, fuzzy
+#~| msgid "QML component for the configuration dialog for applets"
+#~ msgid "QML component for choosing an alternate applet"
+#~ msgstr "QML komponenta za konfiguracijski dijalog za applet"
+
+#~ msgid "Widgets explorer UI"
+#~ msgstr "Istraživač dodataka UI"
+
+#~ msgid "search term"
+#~ msgstr "izraz za traženje"
+
+#~ msgctxt "o/o1 is the name of the applet"
+#~ msgid "Remove this %1"
+#~ msgstr "Ukloni programčić %1"
+
+#~ msgctxt "o/o1 is the name of the applet"
+#~ msgid "%1 Settings"
+#~ msgstr "%1 Postavke"

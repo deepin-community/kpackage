@@ -7,17 +7,19 @@ Uploaders: Aurélien COUDERC <coucouf@debian.org>,
 Build-Depends: cmake (>= 3.16~),
                debhelper-compat (= 13),
                doxygen,
-               extra-cmake-modules (>= 5.90.0~),
-               libkf5archive-dev (>= 5.90.0~),
-               libkf5coreaddons-dev (>= 5.90.0~),
-               libkf5doctools-dev (>= 5.90.0~),
-               libkf5i18n-dev (>= 5.90.0~),
+               extra-cmake-modules (>= 5.103.0~),
+               libkf5archive-dev (>= 5.103.0~),
+               libkf5coreaddons-dev (>= 5.103.0~),
+               libkf5doctools-dev (>= 5.103.0~),
+               libkf5i18n-dev (>= 5.103.0~),
                libqt5sql5-sqlite,
                pkg-kde-tools (>> 0.15.15),
                qtbase5-dev (>= 5.15.2~),
                qttools5-dev,
                qttools5-dev-tools (>= 5.4),
-Standards-Version: 4.6.0
+               xauth <!nocheck>,
+               xvfb <!nocheck>,
+Standards-Version: 4.6.2
 Homepage: https://invent.kde.org/frameworks/kpackage
 Vcs-Browser: https://salsa.debian.org/qt-kde-team/kde/kpackage
 Vcs-Git: https://salsa.debian.org/qt-kde-team/kde/kpackage.git
@@ -27,7 +29,7 @@ Package: kpackagetool5
 Section: kde
 Architecture: any
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Breaks: kpackagelauncherqml (<< 5.54),
         libkf5declarative5 (<< 5.54),
         libkf5kcmutils5 (<< 5.42),
@@ -48,7 +50,7 @@ Description: command line kpackage tool
 Package: libkf5package-data
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends}, ${shlibs:Depends},
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
@@ -59,16 +61,16 @@ Package: libkf5package-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: extra-cmake-modules (>= 5.90.0~),
+Depends: extra-cmake-modules (>= 5.103.0~),
          kpackagetool5 (= ${binary:Version}),
-         libkf5coreaddons-dev (>= 5.90.0~),
+         libkf5coreaddons-dev (>= 5.103.0~),
          libkf5package5 (= ${binary:Version}),
          qtbase5-dev (>= 5.15.2~),
          ${misc:Depends},
 Breaks: libkf5declarative-dev (<< 5.54),
         libkf5plasma-dev (<< 5.54),
         plasma-framework-dev (<< 5.28),
-Recommends: libkf5package-doc (= ${source:Version})
+Recommends: libkf5package-doc (= ${source:Version}),
 Description: development files for kpackage
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
@@ -80,7 +82,7 @@ Description: development files for kpackage
 Package: libkf5package-doc
 Architecture: all
 Multi-Arch: foreign
-Depends: ${misc:Depends}
+Depends: ${misc:Depends},
 Description: non-binary asset management framework (documentation)
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.
@@ -103,7 +105,7 @@ Breaks: kpackagelauncherqml (<< 5.54),
         libkf5runner5 (<< 5.42),
         plasma-framework (<< 5.54),
         qml-module-org-kde-runnermodel (<< 5.42),
-Recommends: kpackagetool5 (>= ${binary:Version})
+Recommends: kpackagetool5 (>= ${binary:Version}),
 Description: non-binary asset management framework
  KPackage provides classes for applications to manage user installable packages
  of non-binary assets.

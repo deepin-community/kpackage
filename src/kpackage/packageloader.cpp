@@ -18,6 +18,7 @@
 #include <KLazyLocalizedString>
 #include <KLocalizedString>
 #include <KPluginFactory>
+#include <KPluginMetaData>
 
 #include "config-package.h"
 
@@ -29,38 +30,6 @@
 namespace KPackage
 {
 static PackageLoader *s_packageTrader = nullptr;
-
-QSet<QString> PackageLoaderPrivate::s_customCategories;
-
-QSet<QString> PackageLoaderPrivate::knownCategories()
-{
-    // this is to trick the translation tools into making the correct
-    // strings for translation
-    QSet<QString> categories = s_customCategories;
-    // clang-format off
-    categories << kli18n("Accessibility").toString().toLower()
-               << kli18n("Application Launchers").toString().toLower()
-               << kli18n("Astronomy").toString().toLower()
-               << kli18n("Date and Time").toString().toLower()
-               << kli18n("Development Tools").toString().toLower()
-               << kli18n("Education").toString().toLower()
-               << kli18n("Environment and Weather").toString().toLower()
-               << kli18n("Examples").toString().toLower()
-               << kli18n("File System").toString().toLower()
-               << kli18n("Fun and Games").toString().toLower()
-               << kli18n("Graphics").toString().toLower()
-               << kli18n("Language").toString().toLower()
-               << kli18n("Mapping").toString().toLower()
-               << kli18n("Miscellaneous").toString().toLower()
-               << kli18n("Multimedia").toString().toLower()
-               << kli18n("Online Services").toString().toLower()
-               << kli18n("Productivity").toString().toLower()
-               << kli18n("System Information").toString().toLower()
-               << kli18n("Utilities").toString().toLower()
-               << kli18n("Windows and Tasks").toString().toLower();
-    // clang-format on
-    return categories;
-}
 
 PackageLoader::PackageLoader()
     : d(new PackageLoaderPrivate)
@@ -213,7 +182,16 @@ QList<KPluginMetaData> PackageLoader::listPackages(const QString &packageFormat,
             dirs << dir;
 
             const QString metadataPath = it.fileInfo().absoluteFilePath();
-            const KPluginMetaData info(metadataPath);
+            KPluginMetaData info;
+#if KCOREADDONS_BUILD_DEPRECATED_SINCE(5, 92)
+            if (metadataPath.endsWith(QLatin1String(".desktop"))) {
+                info = KPluginMetaData::fromDesktopFile(metadataPath);
+            } else {
+                info = KPluginMetaData::fromJsonFile(metadataPath);
+            }
+#else
+            info = KPluginMetaData::fromJsonFile(metadataPath);
+#endif
 
             if (!info.isValid() || uniqueIds.contains(info.pluginId())) {
                 continue;

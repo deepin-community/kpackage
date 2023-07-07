@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2020-10-27 19:19+0100\n"
 "Last-Translator: Martin Schlander <mschlander@opensuse.org>\n"
 "Language-Team: Danish <kde-i18n-doc@kde.org>\n"
@@ -32,134 +32,54 @@ msgstr "mschlander@opensuse.org"
 msgid "Desktop file that describes this package."
 msgstr "Desktop-fil som beskriver denne pakke."
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "Tilgængelighed"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "Startmenuer"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "Astronomi"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "Dato og klokkeslæt"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "Udviklingsværktøjer"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "Uddannelse"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "Miljø og vejr"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "Eksempler"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "Filsystem"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "Spil og spas"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "Grafik"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "Sprog"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "Kort"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "Diverse"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "Multimedie"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "Online tjenester"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "Produktivitet"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "Systeminformation"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "Værktøjer"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "Vinduer og opgaver"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Kunne ikke indlæse installationsprogram til pakketypen %1. Fejlbeskeden var: "
 "%2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Kunne ikke oprette rodmappe for pakken: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Ingen sådan fil: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "Kunne ikke åbne pakkefilen, ikke understøttet arkiv-format: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Kunne ikke åbne pakkefilen: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "Kunne ikke åbne metadatafilen: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Ingen metadata-fil i pakken: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Pakkens plugin-navn er ikke angivet: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "Pakkens plugin-navn %1 indeholder ugyldige tegn"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
@@ -167,48 +87,48 @@ msgstr ""
 "Den ny pakke har en anden type end den gamle version som allerede er "
 "installeret."
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr "Kan ikke fjerne den gamle installation af %1 placeret i %2. Fejl: %3"
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr "Installerer ikke version %1 af %2. Version %3 er allerede installeret."
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 findes allerede"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "Kunne ikke installere afhængighed: \"%1\""
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Kunne ikke flytte pakken til destinationen: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Kunne ikke kopiere pakken til destinationen: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr "pakkestien blev slettet manuelt"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 findes ikke"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Kunne ikke slette pakken fra: %1"
@@ -292,7 +212,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "Enten installér, fjern, opgradér eller vis liste er påkrævet."
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr "Fejl: Kan ikke finde plugin-metadata: %1\n"
@@ -327,7 +247,7 @@ msgstr "    Ophavsmand : %1"
 msgid "      Path : %1"
 msgstr "      Sti: %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -339,72 +259,67 @@ msgstr ""
 "Pakkeroden og de globale indstillinger er i modstrid med hinanden, vælg "
 "venligst kun én."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Navn på tilføjelse"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Tjenestetype"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Sti"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Pakketyper der kan installeres med dette værktøj:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "Indbygget:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "KPackage/generisk"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "KPackage/GenericQML"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Leveret af plugins:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "Opgradering af %1 gennemført"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Installation af %1 gennemført"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Fejl: Installation af %1 mislykkedes: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "Opgraderer pakke fra fil: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "Afinstallation af %1 gennemført"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Fejl: Afinstallation af %1 mislykkedes: %2"
@@ -516,3 +431,375 @@ msgstr "Generér output af metadata for pakken <path>"
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "Generér output af metadata for pakken til <path>"
+
+#~ msgid "Accessibility"
+#~ msgstr "Tilgængelighed"
+
+#~ msgid "Application Launchers"
+#~ msgstr "Startmenuer"
+
+#~ msgid "Astronomy"
+#~ msgstr "Astronomi"
+
+#~ msgid "Date and Time"
+#~ msgstr "Dato og klokkeslæt"
+
+#~ msgid "Development Tools"
+#~ msgstr "Udviklingsværktøjer"
+
+#~ msgid "Education"
+#~ msgstr "Uddannelse"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "Miljø og vejr"
+
+#~ msgid "Examples"
+#~ msgstr "Eksempler"
+
+#~ msgid "File System"
+#~ msgstr "Filsystem"
+
+#~ msgid "Fun and Games"
+#~ msgstr "Spil og spas"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafik"
+
+#~ msgid "Language"
+#~ msgstr "Sprog"
+
+#~ msgid "Mapping"
+#~ msgstr "Kort"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Diverse"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedie"
+
+#~ msgid "Online Services"
+#~ msgstr "Online tjenester"
+
+#~ msgid "Productivity"
+#~ msgstr "Produktivitet"
+
+#~ msgid "System Information"
+#~ msgstr "Systeminformation"
+
+#~ msgid "Utilities"
+#~ msgstr "Værktøjer"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "Vinduer og opgaver"
+
+#~ msgid "Addon Name"
+#~ msgstr "Navn på tilføjelse"
+
+#~ msgid "Service Type"
+#~ msgstr "Tjenestetype"
+
+#~ msgid "Generating %1%2"
+#~ msgstr "Genererer %1 %2"
+
+#~ msgid "Didn't write %1%2"
+#~ msgstr "Skrev ikke %1%2"
+
+#~ msgid "Generating %1/%2"
+#~ msgstr "Genererer %1/%2"
+
+#~ msgid "Cannot write %1/%2"
+#~ msgstr "Kan ikke skrive %1/%2"
+
+#~ msgid "Could not remove index file %1"
+#~ msgstr "Kunne ikke fjerne indeksfilen %1"
+
+#~ msgid "Removed %1"
+#~ msgstr "Fjernede %1"
+
+#, fuzzy
+#~| msgid "Desktop file that describes this package."
+#~ msgid "JSON file that describes this package."
+#~ msgstr "Desktop-fil som beskriver denne pakke."
+
+#~ msgid "Generating %1/kpluginindex.json"
+#~ msgstr "Genererer %1/kpluginindex.json"
+
+#, fuzzy
+#~| msgid "Generating %1/kpluginindex.json"
+#~ msgid "Cannot write to %1/kpluginindex.json"
+#~ msgstr "Genererer %1/kpluginindex.json"
+
+#~ msgid "%1 has NoDisplay enabled\n"
+#~ msgstr "%1 har NoDisplay aktiveret\n"
+
+#~ msgctxt ""
+#~ "theme, wallpaper, etc. are keywords, but they may be translated, as both "
+#~ "versions are recognized by the application (if translated, should be same "
+#~ "as messages with 'package type' context below)"
+#~ msgid ""
+#~ "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+#~ "layout-template, etc."
+#~ msgstr ""
+#~ "Typen af pakke, f.eks. tema, baggrundsbillede, plasmoid, datamotor, "
+#~ "runner, layout-skabelon, osv."
+
+#~ msgid "Provided by .desktop files:"
+#~ msgstr "Leveret af .desktop-filer:"
+
+#~ msgid "OK"
+#~ msgstr "O.k."
+
+#~ msgid "Cancel"
+#~ msgstr "Annullér"
+
+#~ msgid "Script initialization failed"
+#~ msgstr "Initialisering af script mislykkedes"
+
+#~ msgid "Unknown"
+#~ msgstr "Ukendt"
+
+#~ msgid "Activate %1 Widget"
+#~ msgstr "Aktivér widgetten %1"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "Remove this %1"
+#~ msgstr "Fjern denne %1"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings"
+#~ msgstr "Indstilling af %1"
+
+#~ msgid "Lock Widgets"
+#~ msgstr "Lås widgets"
+
+#~ msgid "Unlock Widgets"
+#~ msgstr "Lås widgets op"
+
+#~ msgctxt "misc category"
+#~ msgid "Miscellaneous"
+#~ msgstr "Diverse"
+
+#, fuzzy
+#~| msgctxt "%1 is the name of the applet"
+#~| msgid "%1 Settings"
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings..."
+#~ msgstr "Indstilling af %1"
+
+#~ msgctxt "Package file, name of the widget"
+#~ msgid "Could not open the %1 package required for the %2 widget."
+#~ msgstr "Kunne ikke åbne pakken %1 som er påkrævet af widgetten %2."
+
+#~ msgctxt ""
+#~ "API or programming language the widget was written in, name of the widget"
+#~ msgid "Could not create a %1 ScriptEngine for the %2 widget."
+#~ msgstr "Kunne ikke oprette en %1-ScriptEngine til widgetten %2."
+
+#~ msgid "Alternatives..."
+#~ msgstr "Alternativer..."
+
+#~ msgid "Widget Settings"
+#~ msgstr "Indstilling af widget"
+
+#~ msgid "Remove this Widget"
+#~ msgstr "Fjern denne widget"
+
+#~ msgid "Run the Associated Application"
+#~ msgstr "Kør det associerede program"
+
+#~ msgid "Open with %1"
+#~ msgstr "Åbn med %1"
+
+#~ msgid "Remove this Panel"
+#~ msgstr "Fjern dette panel"
+
+#~ msgid "Remove this Activity"
+#~ msgstr "Fjern denne aktivitet"
+
+#~ msgid "Activity Settings"
+#~ msgstr "Aktivitetsindstillinger"
+
+#~ msgid "Add Widgets..."
+#~ msgstr "Tilføj widgets..."
+
+#~ msgid "Configuration XML file"
+#~ msgstr "XML-konfigurationsfil"
+
+#~ msgid "Service Descriptions"
+#~ msgstr "Tjenestebeskrivelser"
+
+#~ msgid "Images for dialogs"
+#~ msgstr "Billeder til dialoger"
+
+#~ msgid "Generic dialog background"
+#~ msgstr "Generisk dialogbaggrund"
+
+#~ msgid "Theme for the logout dialog"
+#~ msgstr "Tema til log ud-dialog"
+
+#~ msgid "Wallpaper packages"
+#~ msgstr "Baggrundsbillede-pakker"
+
+#~ msgid "Images for widgets"
+#~ msgstr "Billeder til widgets"
+
+#~ msgid "Background image for widgets"
+#~ msgstr "Baggrundsbillede til widgets"
+
+#~ msgid "Background image for panels"
+#~ msgstr "Baggrundsbillede til paneler"
+
+#~ msgid "Background for graphing widgets"
+#~ msgstr "Baggrund til graf-widgets"
+
+#~ msgid "Background image for tooltips"
+#~ msgstr "Baggrundsbillede til værktøjstips"
+
+#~ msgid "Opaque images for dialogs"
+#~ msgstr "Ugennemsigtige billeder til dialoger"
+
+#~ msgid "Opaque generic dialog background"
+#~ msgstr "Ugennemsigtig generisk dialogbaggrund"
+
+#~ msgid "Opaque theme for the logout dialog"
+#~ msgstr "Ugennemsigtigt tema til log ud-dialogen"
+
+#~ msgid "Opaque images for widgets"
+#~ msgstr "Ugennemsigtige billeder til widgets"
+
+#~ msgid "Opaque background image for panels"
+#~ msgstr "Ugennemsigtigt baggrundsbillede til paneler"
+
+#~ msgid "Opaque background image for tooltips"
+#~ msgstr "Ugennemsigtigt baggrundsbillede til værktøjstips"
+
+#~ msgid "Low color images for dialogs"
+#~ msgstr "Billeder med lav farve til dialoger"
+
+#~ msgid "Low color generic dialog background"
+#~ msgstr "Generisk dialogbaggrund med lav farve"
+
+#~ msgid "Low color theme for the logout dialog"
+#~ msgstr "Tema til log ud-dialog med lav farve"
+
+#~ msgid "Low color background image for widgets"
+#~ msgstr "Baggrundsbillede til widgets med lav farve"
+
+#~ msgid "Low color analog clock face"
+#~ msgstr "Front til analogt ur med lav farve"
+
+#~ msgid "Low color background image for panels"
+#~ msgstr "Baggrundsbillede til paneler med lav farve"
+
+#~ msgid "Low color background for graphing widgets"
+#~ msgstr "Baggrund til graf-widgets med lav farve"
+
+#~ msgid "Low color background image for tooltips"
+#~ msgstr "Baggrundsbillede til værktøjstips med lav farve"
+
+#~ msgid "KColorScheme configuration file"
+#~ msgstr "Konfigurationsfil til KColorScheme"
+
+#~ msgid ""
+#~ "Sharing a widget on the network allows you to access this widget from "
+#~ "another computer as a remote control."
+#~ msgstr ""
+#~ "Deling af en widget på netværket lader dig tilgå denne widget fra en "
+#~ "anden computer som fjernbetjening."
+
+#~ msgid "Share this widget on the network"
+#~ msgstr "Del denne widget på netværket"
+
+#~ msgid "Allow everybody to freely access this widget"
+#~ msgstr "Lad alle få fri adgang til denne widget"
+
+#~ msgctxt "Error message, tried to start an invalid service"
+#~ msgid "Invalid (null) service, can not perform any operations."
+#~ msgstr "Ugyldig (null) tjeneste, kan ikke udføre nogen handlinger."
+
+#~ msgctxt "package type"
+#~ msgid "plasmoid"
+#~ msgstr "plasmoid"
+
+#~ msgctxt "package type"
+#~ msgid "package"
+#~ msgstr "pakke"
+
+#~ msgctxt "package type"
+#~ msgid "wallpaperplugin"
+#~ msgstr "baggrundsbillede-plugin"
+
+#~ msgctxt "package type"
+#~ msgid "kwineffect"
+#~ msgstr "kwin-effekt"
+
+#~ msgctxt "package type"
+#~ msgid "windowswitcher"
+#~ msgstr "vinduesskifter"
+
+#~ msgctxt "package type"
+#~ msgid "kwinscript"
+#~ msgstr "kwin-script"
+
+#~ msgid "Could not find a suitable installer for package of type %1"
+#~ msgstr ""
+#~ "Kunne ikke finde passende installationsprogram til pakke af typen %1"
+
+#~ msgid "Layout Template"
+#~ msgstr "Layout-skabelon"
+
+#~ msgid "Look and Feel"
+#~ msgstr "Udseende og fremtoning"
+
+#~ msgid "Plasmoid"
+#~ msgstr "Plasmoid"
+
+#~ msgid "Runner"
+#~ msgstr "Runner"
+
+#~ msgid "Shell"
+#~ msgstr "Skal"
+
+#~ msgid "Wallpaper Images"
+#~ msgstr "Baggrundsbilleder"
+
+#~ msgid "KWin Effect"
+#~ msgstr "KWin-effekt"
+
+#~ msgid "KWin Script"
+#~ msgstr "KWin-script"
+
+#~ msgid "%1 Settings"
+#~ msgstr "Indstilling af %1"
+
+#~ msgid "Preview Images"
+#~ msgstr "Forhåndsvis billeder"
+
+#~ msgid "Login Manager"
+#~ msgstr "Login-håndtering"
+
+#~ msgid "Virtual Desktop Switcher"
+#~ msgstr "Skift mellem virtuelle skriveborde"
+
+#~ msgid "Splash Screen"
+#~ msgstr "Opstartsskærm"
+
+#~ msgid "Fetching file type..."
+#~ msgstr "Henter filtype..."
+
+#~ msgid "Widgets"
+#~ msgstr "Widgets"
+
+#~ msgid "Icon"
+#~ msgstr "Ikon"
+
+#~ msgid "Wallpaper"
+#~ msgstr "Baggrundsbillede"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "%1 Options"
+#~ msgstr "Indstilling af %1"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "Do you really want to remove this %1?"
+#~ msgstr "Vil du fjerne %1?"

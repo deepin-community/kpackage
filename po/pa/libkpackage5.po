@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2018-11-16 21:04-0800\n"
 "Last-Translator: A S Alam <alam.yellow@gmail.com>\n"
 "Language-Team: Punjabi <punjabi-users@lists.sf.net>\n"
@@ -33,179 +33,99 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr "ਡੈਸਕਟਾਪ ਫਾਈਲ, ਜੋ ਕਿ ਇਸ ਪੈਕੇਜ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿੰਦੀ ਹੈ।"
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "ਅਸੈੱਸਬਿਲਟੀ"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "ਗਰੈਹ ਵਿਦਿਆ"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "ਮਿਤੀ ਅਤੇ ਟਾਈਮ"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "ਡਿਵੈਲਪਮੈਂਟ ਟੂਲ"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "ਸਿੱਖਿਆ"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "ਵਾਤਾਵਰਨ ਤੇ ਮੌਸਮ"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "ਮਿਸਾਲਾਂ"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "ਫਾਈਲ-ਸਿਸਟਮ"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "ਮੌਜਾਂ ਤੇ ਖੇਡਾਂ"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "ਗਰਾਫਿਕਸ"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "ਭਾਸ਼ਾ"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "ਨਕਸ਼ੇ"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "ਫੁਟਕਲ"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "ਮਲਟੀਮੀਡਿਆ"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "ਆਨਲਾਈਨ ਸਰਵਿਸਾਂ"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "ਉਤਪਾਦਨ"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "ਸਿਸਟਮ ਜਾਣਕਾਰੀ"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "ਸਹੂਲਤਾਂ"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "ਵਿੰਡੋਜ਼ ਅਤੇ ਟਾਸਕ"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr "ਪੈਕੇਜ ਟਾਈਪ %1 ਲਈ ਇੰਸਟਾਲਰ ਲੋਡ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਿਆ। ਦਿੱਤੀ ਗਲਤੀ: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "ਇੰਝ ਦੀ ਫਾਈਲ ਨਹੀਂ: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "ਪੈਕੇਜ ਫਾਈਲ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "ਮੇਟਾਡਾਟਾ ਫਾਈਲ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "ਪੈਕੇਜ ਵਿੱਚ ਕੋਈ ਮੇਟਾਡਾਟਾ ਫਾਈਲ ਨਹੀਂ ਹੈ: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "ਪੈਕੇਜ ਪਲੱਗਇਨ ਨਾਂ ਦਿੱਤਾ ਨਹੀ ਹੈ: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 ਪਹਿਲਾਂ ਹੀ ਮੌਜੂਦ ਹੈ"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "ਨਿਰਭਰਤਾ ਇੰਸਟਾਲ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ: '%1'"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 ਮੌਜੂਦ ਨਹੀਂ"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr ""
@@ -290,7 +210,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr ""
@@ -325,7 +245,7 @@ msgstr "    ਲੇਖਕ : %1"
 msgid "      Path : %1"
 msgstr "      ਪਾਥ : %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -335,74 +255,69 @@ msgid ""
 "only one."
 msgstr "ਪੈਕੇਜ-ਰੂਟ ਅਤੇ ਗਲੋਬਲ ਚੋਣਾਂ ਦਾ ਆਪਸ ਵਿੱਚ ਟਕਰਾ ਹੈ, ਕਿਸੇ ਇੱਕ ਦੀ ਚੋਣ ਕਰੋ ਜੀ।"
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "ਐਡ-ਆਨ ਨਾਂ"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "ਸਰਵਿਸ ਕਿਸਮ"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "ਮਾਰਗ"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "ਇਹ ਟੂਲ ਨਾਲ ਇੰਸਟਾਲ ਹੋਣਯੋਗ ਪੈਕੇਜ ਕਿਸਮਾਂ:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "ਬਿਲਟ-ਇਨ:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, fuzzy, kde-format
 #| msgid "Package"
 msgid "KPackage/Generic"
 msgstr "ਪੈਕੇਜ"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, fuzzy, kde-format
 #| msgid "Package"
 msgid "KPackage/GenericQML"
 msgstr "ਪੈਕੇਜ"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "ਪਲੱਗਇਨ ਦਿੱਤੇ ਗਏ:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "%1 ਕਾਮਯਾਬੀ ਨਾਲ ਅੱਪਗਰੇਡ ਕੀਤਾ"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "%1 ਠੀਕ ਤਰ੍ਹਾਂ ਇੰਸਟਾਲ ਕੀਤਾ"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr ""
@@ -509,3 +424,323 @@ msgstr "<path> ਉੱਤੇ ਪੈਕੇਜ ਲਈ SHA1 ਹੈਸ਼ ਬਣਾ�
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "<path> ਉੱਤੇ ਪੈਕੇਜ ਲਈ SHA1 ਹੈਸ਼ ਬਣਾਓ"
+
+#~ msgid "Accessibility"
+#~ msgstr "ਅਸੈੱਸਬਿਲਟੀ"
+
+#~ msgid "Application Launchers"
+#~ msgstr "ਐਪਲੀਕੇਸ਼ਨ ਲਾਂਚਰ"
+
+#~ msgid "Astronomy"
+#~ msgstr "ਗਰੈਹ ਵਿਦਿਆ"
+
+#~ msgid "Date and Time"
+#~ msgstr "ਮਿਤੀ ਅਤੇ ਟਾਈਮ"
+
+#~ msgid "Development Tools"
+#~ msgstr "ਡਿਵੈਲਪਮੈਂਟ ਟੂਲ"
+
+#~ msgid "Education"
+#~ msgstr "ਸਿੱਖਿਆ"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "ਵਾਤਾਵਰਨ ਤੇ ਮੌਸਮ"
+
+#~ msgid "Examples"
+#~ msgstr "ਮਿਸਾਲਾਂ"
+
+#~ msgid "File System"
+#~ msgstr "ਫਾਈਲ-ਸਿਸਟਮ"
+
+#~ msgid "Fun and Games"
+#~ msgstr "ਮੌਜਾਂ ਤੇ ਖੇਡਾਂ"
+
+#~ msgid "Graphics"
+#~ msgstr "ਗਰਾਫਿਕਸ"
+
+#~ msgid "Language"
+#~ msgstr "ਭਾਸ਼ਾ"
+
+#~ msgid "Mapping"
+#~ msgstr "ਨਕਸ਼ੇ"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "ਫੁਟਕਲ"
+
+#~ msgid "Multimedia"
+#~ msgstr "ਮਲਟੀਮੀਡਿਆ"
+
+#~ msgid "Online Services"
+#~ msgstr "ਆਨਲਾਈਨ ਸਰਵਿਸਾਂ"
+
+#~ msgid "Productivity"
+#~ msgstr "ਉਤਪਾਦਨ"
+
+#~ msgid "System Information"
+#~ msgstr "ਸਿਸਟਮ ਜਾਣਕਾਰੀ"
+
+#~ msgid "Utilities"
+#~ msgstr "ਸਹੂਲਤਾਂ"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "ਵਿੰਡੋਜ਼ ਅਤੇ ਟਾਸਕ"
+
+#~ msgid "Addon Name"
+#~ msgstr "ਐਡ-ਆਨ ਨਾਂ"
+
+#~ msgid "Service Type"
+#~ msgstr "ਸਰਵਿਸ ਕਿਸਮ"
+
+#, fuzzy
+#~| msgid "Could not open package file: %1"
+#~ msgid "Could not remove index file %1"
+#~ msgstr "ਪੈਕੇਜ ਫਾਈਲ ਖੋਲ੍ਹੀ ਨਹੀਂ ਜਾ ਸਕੀ: %1"
+
+#~ msgid "Removed %1"
+#~ msgstr "%1 ਹਟਾਇਆ"
+
+#, fuzzy
+#~| msgid "Desktop file that describes this package."
+#~ msgid "JSON file that describes this package."
+#~ msgstr "ਡੈਸਕਟਾਪ ਫਾਈਲ, ਜੋ ਕਿ ਇਸ ਪੈਕੇਜ ਬਾਰੇ ਜਾਣਕਾਰੀ ਦਿੰਦੀ ਹੈ।"
+
+#~ msgctxt ""
+#~ "theme, wallpaper, etc. are keywords, but they may be translated, as both "
+#~ "versions are recognized by the application (if translated, should be same "
+#~ "as messages with 'package type' context below)"
+#~ msgid ""
+#~ "The type of package, e.g. theme, wallpaper, plasmoid, dataengine, runner, "
+#~ "layout-template, etc."
+#~ msgstr ""
+#~ "ਪੈਕੇਜਾਂ ਦੀ ਟਾਈਪ, ਜਿਵੇਂ ਕਿ ਥੀਮ, ਵਾਲਪੇਪਰ, ਪਲਾਜ਼ਮੋਡ, ਡਾਟਾ-ਇੰਜਣ, ਰਨਰ, ਲੇਆਉਟ-ਟੈਪਲੇਟ ਆਦਿ।"
+
+#~ msgid "Provided by .desktop files:"
+#~ msgstr ".desktop ਫਾਈਲਾਂ ਵਲੋਂ ਦਿੱਤੇ:"
+
+#~ msgid "Script initialization failed"
+#~ msgstr "ਸਕ੍ਰਿਪਟ ਸ਼ੁਰੂ ਕਰਨ ਲਈ ਫੇਲ੍ਹ"
+
+#~ msgid "Unknown"
+#~ msgstr "ਅਣਜਾਣ"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings"
+#~ msgstr "%1 ਸੈਟਿੰਗ"
+
+#~ msgctxt "misc category"
+#~ msgid "Miscellaneous"
+#~ msgstr "ਫੁਟਕਲ"
+
+#~ msgctxt "%1 is the name of the applet"
+#~ msgid "%1 Settings..."
+#~ msgstr "%1 ਸੈਟਿੰਗ..."
+
+#~ msgid "Activity Settings"
+#~ msgstr "ਸਰਗਰਮੀ ਸੈਟਿੰਗ"
+
+#~ msgid "Add Widgets..."
+#~ msgstr "...ਵਿਦਜੈੱਟ ਸ਼ਾਮਿਲ"
+
+#~ msgid "Service Descriptions"
+#~ msgstr "ਸਰਵਿਸ ਵੇਰਵਾ"
+
+#~ msgid "Images for dialogs"
+#~ msgstr "ਡਾਈਲਾਗਾਂ ਲਈ ਚਿੱਤਰ"
+
+#~ msgid "Generic dialog background"
+#~ msgstr "ਆਮ ਡਾਈਲਾਗ ਬੈਕਗਰਾਊਂਡ"
+
+#~ msgid "Theme for the logout dialog"
+#~ msgstr "ਲਾਗਆਉਟ ਡਾਈਲਾਗ ਲਈ ਥੀਮ"
+
+#~ msgid "Wallpaper packages"
+#~ msgstr "ਵਾਲਪੇਪਰ ਪੈਕੇਜ"
+
+#~ msgid "Images for widgets"
+#~ msgstr "ਵਿਦਜੈੱਟ ਲਈ ਚਿੱਤਰ"
+
+#~ msgid "Analog clock face"
+#~ msgstr "ਐਨਾਲਾਗ ਘੜੀ ਫੇਸ"
+
+#~ msgid "Background image for panels"
+#~ msgstr "ਪੈਨਲਾਂ ਲਈ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ"
+
+#~ msgid "Opaque theme for the logout dialog"
+#~ msgstr "ਲਾਗਆਉਟ ਡਾਈਲਾਗ ਲਈ ਧੁੰਦਲਾ ਥੀਮ"
+
+#~ msgid "Opaque images for widgets"
+#~ msgstr "ਵਿਦਜੈੱਟ ਲਈ ਧੁੰਦਲੇ ਚਿੱਤਰ"
+
+#~ msgid "Opaque background image for panels"
+#~ msgstr "ਪੈਨਲਾਂ ਲਈ ਧੁੰਦਲਾ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ"
+
+#~ msgid "Opaque background image for tooltips"
+#~ msgstr "ਟੂਲ-ਟਿੱਪ ਲਈ ਧੁੰਦਲਾ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ"
+
+#~ msgid "Low color images for dialogs"
+#~ msgstr "ਡਾਈਲਾਗਾਂ ਲਈ ਘੱਟ ਰੰਗ ਚਿੱਤਰ"
+
+#~ msgid "Low color generic dialog background"
+#~ msgstr "ਘੱਟ ਰੰਗ ਆਮ ਡਾਈਲਾਗ ਬੈਕਗਰਾਊਂਡ"
+
+#~ msgid "Low color theme for the logout dialog"
+#~ msgstr "ਲਾਗਆਉਟ ਡਾਈਲਾਗ ਲਈ ਘੱਟ ਰੰਗ ਥੀਮ"
+
+#~ msgid "Low color background image for widgets"
+#~ msgstr "ਵਿਦਜੈੱਟ ਲਈ ਘੱਟ ਰੰਗ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ"
+
+#~ msgid "Low color analog clock face"
+#~ msgstr "ਘੱਟ ਰੰਗ ਐਨਾਲਾਗ ਘੜੀ ਫੇਸ"
+
+#~ msgid "Low color background image for panels"
+#~ msgstr "ਪੈਨਲਾਂ ਲਈ ਘੱਟ ਰੰਗ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ"
+
+#~ msgid "Low color background for graphing widgets"
+#~ msgstr "ਗਰਾਫਿਕਸ ਵਿਦਜੈੱਟਾਂ ਲਈ ਘੱਟ ਰੰਗ ਬੈਕਗਰਾਊਂਡ"
+
+#~ msgid "Low color background image for tooltips"
+#~ msgstr "ਟੂਲ-ਟਿੱਪ ਲਈ ਘੱਟ ਰੰਗ ਬੈਕਗਰਾਊਂਡ ਚਿੱਤਰ"
+
+#~ msgid "KColorScheme configuration file"
+#~ msgstr "KColorScheme ਸੰਰਚਨਾ ਫਾਈਲ"
+
+#~ msgid ""
+#~ "Sharing a widget on the network allows you to access this widget from "
+#~ "another computer as a remote control."
+#~ msgstr ""
+#~ "ਨੈੱਟਵਰਕ ਉੱਤੇ ਵਿਦਜੈੱਟ ਨੂੰ ਸਾਂਝਾ ਕਰਨ ਨਾਲ ਤੁਸੀਂ ਇਸ ਵਿਦਜੈੱਟ ਨੂੰ ਹੋਰ ਕੰਪਿਊਟਰ ਤੋਂ ਰਿਮੋਟ ਕੰਟਰੋਲ ਵਜੋਂ ਅਸੈੱਸ "
+#~ "ਮਨਜ਼ੂਰ ਕਰਦੇ ਹੋ।"
+
+#~ msgid "Share this widget on the network"
+#~ msgstr "ਇਹ ਵਿਦਜੈੱਟ ਨੈੱਟਵਰਕ ਉੱਤੇ ਸਾਂਝਾ ਕਰੋ"
+
+#~ msgid "Allow everybody to freely access this widget"
+#~ msgstr "ਹਰੇਕ ਨੂੰ ਇਹ ਵਿਦਜੈੱਟ ਵਰਤਣ ਦਿਓ"
+
+#~ msgctxt "Error message, tried to start an invalid service"
+#~ msgid "Invalid (null) service, can not perform any operations."
+#~ msgstr "ਗਲਤ (ਨਲ) ਸਰਵਿਸ, ਕੋਈ ਵੀ ਓਪਰੇਸ਼ਨ ਨਹੀਂ ਕੀਤਾ ਜਾ ਸਕਦਾ।"
+
+#~ msgctxt "package type"
+#~ msgid "package"
+#~ msgstr "ਪੈਕੇਜ"
+
+#~ msgctxt "package type"
+#~ msgid "theme"
+#~ msgstr "ਥੀਮ"
+
+#~ msgctxt "package type"
+#~ msgid "dataengine"
+#~ msgstr "ਡਾਟਾਇੰਜਣ"
+
+#~ msgctxt "package type"
+#~ msgid "runner"
+#~ msgstr "ਰਨਰ"
+
+#~ msgctxt "package type"
+#~ msgid "wallpaperplugin"
+#~ msgstr "ਵਾਲਪੇਪਰਪਲੱਗਇਨ"
+
+#~ msgctxt "package type"
+#~ msgid "shell"
+#~ msgstr "ਸ਼ੈੱਲ"
+
+#~ msgid "DataEngine"
+#~ msgstr "ਡਾਟਾਇੰਜਣ"
+
+#~ msgid "Layout Template"
+#~ msgstr "ਲੇਆਉਟ ਟੈਪਲੇਟ"
+
+#~ msgid "Look and Feel"
+#~ msgstr "ਦਿੱਖ ਤੇ ਪਰਭਾਵ"
+
+#~ msgid "Shell"
+#~ msgstr "ਸ਼ੈੱਲ"
+
+#~ msgid "Theme"
+#~ msgstr "ਥੀਮ"
+
+#~ msgid "Wallpaper Images"
+#~ msgstr "ਵਾਲਪੇਪਰ ਚਿੱਤਰ"
+
+#~ msgid "Animated Wallpaper"
+#~ msgstr "ਐਨੀਮੇਟਡ ਵਾਲਪੇਪਰ"
+
+#~ msgid "KWin Effect"
+#~ msgstr "KWin ਪਰਭਾਵ"
+
+#~ msgid "KWin Window Switcher"
+#~ msgstr "KWin ਵਿੰਡੋ ਸਵਿੱਚਰ"
+
+#~ msgid "KWin Script"
+#~ msgstr "KWin ਸਕ੍ਰਿਪਟ"
+
+#~ msgid "%1 Settings"
+#~ msgstr "%1 ਸੈਟਿੰਗ"
+
+#~ msgid "Preview Images"
+#~ msgstr "ਚਿੱਤਰ ਝਲਕ"
+
+#~ msgid "Preview for the Login Manager"
+#~ msgstr "ਲਾਗਇਨ ਮੈਨੇਜਰ ਲਈ ਝਲਕ"
+
+#~ msgid "Preview for the Lock Screen"
+#~ msgstr "ਲਾਕ ਸਕਰੀਨ ਲਈ ਝਲਕ"
+
+#~ msgid "Preview for the Virtual Desktop Switcher"
+#~ msgstr "ਵਰਚੁਅਲ ਡੈਸਕ ਸਵਿੱਚ ਲਈ ਝਲਕ"
+
+#~ msgid "Preview for KRunner"
+#~ msgstr "ਕੇਰਨਰ ਲਈ ਝਲਕ"
+
+#~ msgid "Login Manager"
+#~ msgstr "ਲਾਗ-ਇਨ ਮੈਨੇਜਰ"
+
+#~ msgid "Main Script for Login Manager"
+#~ msgstr "ਲਾਗ-ਇਨ ਮੈਨੇਜਰ ਲਈ ਮੁੱਖ ਸਕ੍ਰਿਪਟ"
+
+#~ msgid "Logout Dialog"
+#~ msgstr "ਲਾਗਆਉਟ ਡਾਈਲਾਗ"
+
+#~ msgid "Screenlocker"
+#~ msgstr "ਸਕਰੀਨਲਾਕਰ"
+
+#~ msgid "Virtual Desktop Switcher"
+#~ msgstr "ਵਰਚੁਅਲ ਡੈਸਕਟਾਪ ਸਵਿੱਚਰ"
+
+#~ msgid "On-Screen Display Notifications"
+#~ msgstr "ਸਕਰੀਨ ਉੱਤੇ ਸੂਚਨਾਵਾਂ ਝਲਕ"
+
+#~ msgid "Splash Screen"
+#~ msgstr "ਸਵਾਗਤੀ ਸਕਰੀਨ"
+
+#~ msgid "Main Script for Splash Screen"
+#~ msgstr "ਸਵਾਗਤੀ ਸਕਰੀਨ ਲਈ ਮੁੱਖ ਸਕ੍ਰਿਪਟ"
+
+#~ msgid "Window Decoration"
+#~ msgstr "ਵਿੰਡੋ ਸਜਾਵਟ"
+
+#~ msgid "Window Switcher"
+#~ msgstr "ਵਿੰਡੋ ਸਵਿੱਚਰ"
+
+#~ msgid "Fetching file type..."
+#~ msgstr "...ਫਾਈਲ ਕਿਸਮ ਲਈ ਜਾ ਰਹੀ ਹੈ"
+
+#~ msgid "Widgets"
+#~ msgstr "ਵਿਦਜੈੱਟ"
+
+#~ msgid "Icon"
+#~ msgstr "ਆਈਕਾਨ"
+
+#~ msgid "Wallpaper"
+#~ msgstr "ਵਾਲਪੇਪਰ"
+
+#~ msgctxt "%1 is the name of the containment"
+#~ msgid "%1 Options"
+#~ msgstr "%1 ਚੋਣਾਂ"
+
+#~ msgid "Default layout file"
+#~ msgstr "ਡਿਫਾਲਟ ਲੇਆਉਟ ਫਾਈਲ"
+
+#~ msgid "Panel configuration UI"
+#~ msgstr "ਪਲਾਜ਼ਮਾ ਸੰਰਚਨਾ UI"

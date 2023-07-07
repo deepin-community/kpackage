@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: libkpackage5\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
-"PO-Revision-Date: 2020-08-11 10:43+0100\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
+"PO-Revision-Date: 2022-07-26 09:44+0100\n"
 "Last-Translator: José Nuno Coelho Pires <zepires@gmail.com>\n"
 "Language-Team: Portuguese <kde-i18n-pt@kde.org>\n"
 "Language: pt\n"
@@ -29,182 +29,102 @@ msgstr "zepires@gmail.com"
 msgid "Desktop file that describes this package."
 msgstr "O ficheiro '.desktop' que descreve este pacote."
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "Acessibilidade"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "Lançadores de Aplicações"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "Astronomia"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "Data e Hora"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "Ferramentas de Desenvolvimento"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "Educação"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "Ambiente e Meteorologia"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "Exemplos"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "Sistema de Ficheiros"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "Diversão e Jogos"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "Gráficos"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "Linguagem"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "Mapas"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "Diversos"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "Multimédia"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "Serviços 'Online'"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "Produtividade"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "Informações do Sistema"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "Utilitários"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "Janelas e Tarefas"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Não foi possível carregar o instalador do pacote do tipo %1. O erro "
 "devolvido foi: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Não foi possível criar a pasta de topo dos pacotes: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Não existe o ficheiro: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr ""
 "Não foi possível aceder ao pacote; o formato do mesmo não é suportado: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Não foi possível aceder ao ficheiro do pacote: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "Não foi possível aceder ao ficheiro de meta-dados: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Não existe o ficheiro de meta-dados no pacote: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Não foi indicado o nome do 'plugin' do pacote: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "O nome do 'plugin' do pacote %1 contém caracteres inválidos"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr "O novo pacote tem um tipo diferente da versão antiga já instalada."
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr "Não é possível remover a instalação antiga do %1 em %2. Erro: %3"
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr "A versão %1 do %2 não será instalada. Já está instalada a versão %3."
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "O %1 já existe"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "Não foi possível instalar a dependência: '%1'"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Não foi possível mover o pacote para o destino: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Não foi possível copiar o pacote para o destino: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr "a localização do pacote foi apagada manualmente"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "O %1 não existe"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Não foi possível apagar o pacote de: %1"
@@ -288,7 +208,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "É necessário um dos comandos 'install', 'remove', 'upgrade' ou 'list'."
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr "Erro: Não é possível encontrar os meta-dados do 'plugin': %1\n"
@@ -323,7 +243,7 @@ msgstr "     Autor : %1"
 msgid "      Path : %1"
 msgstr "     Local : %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -335,72 +255,67 @@ msgstr ""
 "A raiz do pacote ('packageroot') e as opções globais ('global') estão em "
 "conflito; seleccione por favor apenas uma."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Nome da Extensão"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Tipo de Serviço"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr "Nome da Estrutura do KPackage"
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Localização"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Os tipos de pacotes que podem ser instalados com esta ferramenta:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "Incorporadas:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "KPackage/Genérico"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "KPackage/QML Genérico"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Oferecido pelos 'plugins':"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "O %1 foi actualizado com sucesso"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "O %1 foi instalado com sucesso"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Erro: A instalação de %1 foi mal-sucedida: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "A actualizar o pacote do ficheiro: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "O %1 foi desinstalado com sucesso"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Erro: A desinstalação de %1 foi mal-sucedida: %2"
@@ -516,3 +431,63 @@ msgstr "Apresenta os meta-dados do pacote em <path>"
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "Apresenta os meta-dados do pacote em <path>"
+
+#~ msgid "Accessibility"
+#~ msgstr "Acessibilidade"
+
+#~ msgid "Application Launchers"
+#~ msgstr "Lançadores de Aplicações"
+
+#~ msgid "Astronomy"
+#~ msgstr "Astronomia"
+
+#~ msgid "Date and Time"
+#~ msgstr "Data e Hora"
+
+#~ msgid "Development Tools"
+#~ msgstr "Ferramentas de Desenvolvimento"
+
+#~ msgid "Education"
+#~ msgstr "Educação"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "Ambiente e Meteorologia"
+
+#~ msgid "Examples"
+#~ msgstr "Exemplos"
+
+#~ msgid "File System"
+#~ msgstr "Sistema de Ficheiros"
+
+#~ msgid "Fun and Games"
+#~ msgstr "Diversão e Jogos"
+
+#~ msgid "Graphics"
+#~ msgstr "Gráficos"
+
+#~ msgid "Language"
+#~ msgstr "Linguagem"
+
+#~ msgid "Mapping"
+#~ msgstr "Mapas"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Diversos"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimédia"
+
+#~ msgid "Online Services"
+#~ msgstr "Serviços 'Online'"
+
+#~ msgid "Productivity"
+#~ msgstr "Produtividade"
+
+#~ msgid "System Information"
+#~ msgstr "Informações do Sistema"
+
+#~ msgid "Utilities"
+#~ msgstr "Utilitários"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "Janelas e Tarefas"

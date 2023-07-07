@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: plasmapkg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2019-11-09 21:00+0700\n"
 "Last-Translator: Wantoyo <wantoyek@gmail.com>\n"
 "Language-Team: Indonesian <kde-i18n-doc@kde.org>\n"
@@ -17,7 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Lokalize 19.08.1\n"
 
 #, fuzzy, kde-format
 #| msgid "Fun and Games"
@@ -35,141 +34,61 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr "File desktop yang menerangjelaskan paket ini."
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "Aksesibilitas"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr "Peluncur Aplikasi"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "Ilmu Perbintangan"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "Tanggal dan Waktu"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "Peralatan Pengembangan"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "Edukasi"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "Environment dan Cuaca"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "Contoh"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "Sistem File"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "Hiburan dan Permainan"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "Grafik"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "Bahasa"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "Pemetaan"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "Beraneka"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "Multimedia"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "Layanan Online"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr "Produktifitas"
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "Informasi Sistem"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr "Utilitas"
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "Window dan Tugas"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 "Tak dapat memuat penginstal untuk paket dengan tipe %1. Error yang "
 "dilaporkan adalah: %2"
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr "Tidak dapat menciptakan paket direktori root: %1"
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "Tidak ada file seperti: %1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "Tidak dapat membuka file paket, format arsip tidak didukung: %1 %2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "Tidak dapat membuka file paket: %1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "Tidak dapat membuka file metadata: %1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "Tidak ada file metadata dalam paket: %1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "Nama plugin paket tidak ditentukan: %1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "Nama plugin paket %1 berisi karakter yang tidak absah"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr ""
 "Paket baru yang memiliki tipe berbeda dari versi lawas yang sudah terinstal."
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
@@ -177,42 +96,42 @@ msgstr ""
 "Tidak mungkin untuk menghapus peginstalan lawas %1 yang berlokasi di %2. "
 "Galat: %3"
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr "Tidak menginstal versi %1 dari %2. Versi %3 sudah terinstal."
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1 sudah ada"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr "Tidak dapat menginstal ketergantungan: '%1'"
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "Tidak dapat memindah paket ke tujuan: %1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "Tidak dapat menyalin paket ke tujuan: %1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 tidak ada."
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "Tidak dapat menghapus paket dari: %1"
@@ -296,7 +215,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr "Salah satu install, remove, upgrade atau list telah diperlukan."
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr "Error: Tak menemukan metadata plugin: %1\n"
@@ -331,7 +250,7 @@ msgstr "    Penulis: %1"
 msgid "      Path : %1"
 msgstr "      Alur: %1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -343,72 +262,67 @@ msgstr ""
 "Opsi global dan packageroot bentrok dengan yang lainnya, silakan pilih satu "
 "saja."
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr "Nama Tambahan"
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr "Tipe Layanan"
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "Alur"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr "Tipe paket yang dapat diinstal dengan alat ini:"
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr "Dibuat di:"
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr "KPackage/Generik"
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr "KPackage/GenericQML"
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr "Disediakan oleh plugin:"
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr "Berhasil meningkatkan %1"
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr "Berhasil menginstal %1"
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr "Error: Penginstalan %1 gagal: %2"
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr "Meningkatkan paket dari file: %1"
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr "Berhasil diuninstal %1"
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr "Error: Penguninstalan %1 gagal: %2"
@@ -522,3 +436,92 @@ msgstr "Output metadata untuk paket <path>"
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr "Output metadata untuk paket ke dalam <path>"
+
+#~ msgid "Accessibility"
+#~ msgstr "Aksesibilitas"
+
+#~ msgid "Application Launchers"
+#~ msgstr "Peluncur Aplikasi"
+
+#~ msgid "Astronomy"
+#~ msgstr "Ilmu Perbintangan"
+
+#~ msgid "Date and Time"
+#~ msgstr "Tanggal dan Waktu"
+
+#~ msgid "Development Tools"
+#~ msgstr "Peralatan Pengembangan"
+
+#~ msgid "Education"
+#~ msgstr "Edukasi"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "Environment dan Cuaca"
+
+#~ msgid "Examples"
+#~ msgstr "Contoh"
+
+#~ msgid "File System"
+#~ msgstr "Sistem File"
+
+#~ msgid "Fun and Games"
+#~ msgstr "Hiburan dan Permainan"
+
+#~ msgid "Graphics"
+#~ msgstr "Grafik"
+
+#~ msgid "Language"
+#~ msgstr "Bahasa"
+
+#~ msgid "Mapping"
+#~ msgstr "Pemetaan"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "Beraneka"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"
+
+#~ msgid "Online Services"
+#~ msgstr "Layanan Online"
+
+#~ msgid "Productivity"
+#~ msgstr "Produktifitas"
+
+#~ msgid "System Information"
+#~ msgstr "Informasi Sistem"
+
+#~ msgid "Utilities"
+#~ msgstr "Utilitas"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "Window dan Tugas"
+
+#~ msgid "Addon Name"
+#~ msgstr "Nama Tambahan"
+
+#~ msgid "Service Type"
+#~ msgstr "Tipe Layanan"
+
+#~ msgid "Generating %1%2"
+#~ msgstr "Menghasilkan %1%2"
+
+#~ msgid "Didn't write %1%2"
+#~ msgstr "Jangan tulis %1%2"
+
+#~ msgid "Generating %1/%2"
+#~ msgstr "Menghasilkan %1/%2"
+
+#~ msgid "Cannot write %1/%2"
+#~ msgstr "Tak bisa menulis %1/%2"
+
+#~ msgid "Could not remove index file %1"
+#~ msgstr "Tidak dapat membuang file %1"
+
+#~ msgid "Removed %1"
+#~ msgstr "Membuang %1"
+
+#, fuzzy
+#~| msgid "Desktop file that describes this package."
+#~ msgid "JSON file that describes this package."
+#~ msgstr "File desktop yang menerangjelaskan paket ini."

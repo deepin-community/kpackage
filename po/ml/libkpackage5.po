@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpackage\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2021-12-23 00:40+0000\n"
+"POT-Creation-Date: 2022-09-15 00:41+0000\n"
 "PO-Revision-Date: 2019-08-04 15:09+0530\n"
 "Last-Translator: aathira k <aathira1042k@gmail.com>\n"
 "Language-Team: Swathanthra|സ്വതന്ത്ര Malayalam|മലയാളം Computing|കമ്പ്യൂട്ടിങ്ങ് <smc."
@@ -34,179 +34,99 @@ msgstr ""
 msgid "Desktop file that describes this package."
 msgstr ""
 
-#: kpackage/packageloader.cpp:41
-msgid "Accessibility"
-msgstr "പ്രാപ്യത"
-
-#: kpackage/packageloader.cpp:42
-msgid "Application Launchers"
-msgstr " സംരഭകൻ"
-
-#: kpackage/packageloader.cpp:43
-msgid "Astronomy"
-msgstr "ജ്യോതിശാസ്ത്രം"
-
-#: kpackage/packageloader.cpp:44
-msgid "Date and Time"
-msgstr "തിയതിയും സമയവും"
-
-#: kpackage/packageloader.cpp:45
-msgid "Development Tools"
-msgstr "വികസന ഉപകരണങ്ങൾ"
-
-#: kpackage/packageloader.cpp:46
-msgid "Education"
-msgstr "വിദ്യാഭ്യാസം"
-
-#: kpackage/packageloader.cpp:47
-msgid "Environment and Weather"
-msgstr "പരിസരവും കാലാവസ്ഥയും"
-
-#: kpackage/packageloader.cpp:48
-msgid "Examples"
-msgstr "ഉദാഹരണങൾ"
-
-#: kpackage/packageloader.cpp:49
-msgid "File System"
-msgstr "അറ സിസ്‍റ്റം"
-
-#: kpackage/packageloader.cpp:50
-msgid "Fun and Games"
-msgstr "കേളീകളും കളികളും"
-
-#: kpackage/packageloader.cpp:51
-msgid "Graphics"
-msgstr "ഗ്രാഫിക്സ്"
-
-#: kpackage/packageloader.cpp:52
-msgid "Language"
-msgstr "ഭാഷ"
-
-#: kpackage/packageloader.cpp:53
-msgid "Mapping"
-msgstr "മാപ്പിങ്"
-
-#: kpackage/packageloader.cpp:54
-msgid "Miscellaneous"
-msgstr "പലവക"
-
-#: kpackage/packageloader.cpp:55
-msgid "Multimedia"
-msgstr "മൾടിമീഡിയ"
-
-#: kpackage/packageloader.cpp:56
-msgid "Online Services"
-msgstr "ഓൺലൈൻ സേവനങ്ങൾ"
-
-#: kpackage/packageloader.cpp:57
-msgid "Productivity"
-msgstr ""
-
-#: kpackage/packageloader.cpp:58
-msgid "System Information"
-msgstr "സിസ്റ്റം അറിവ്"
-
-#: kpackage/packageloader.cpp:59
-msgid "Utilities"
-msgstr ""
-
-#: kpackage/packageloader.cpp:60
-msgid "Windows and Tasks"
-msgstr "ജനാലകളും ജോലികളും"
-
-#: kpackage/packageloader.cpp:277
+#: kpackage/packageloader.cpp:255
 #, kde-format
 msgid "Could not load installer for package of type %1. Error reported was: %2"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:141
+#: kpackage/private/packagejobthread.cpp:144
 #, kde-format
 msgid "Could not create package root directory: %1"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:150
+#: kpackage/private/packagejobthread.cpp:153
 #, kde-format
 msgid "No such file: %1"
 msgstr "ഇങ്ങനെ ഒരു അറ നിലവിൽ ഇല്ല:%1"
 
-#: kpackage/private/packagejobthread.cpp:180
+#: kpackage/private/packagejobthread.cpp:183
 #, kde-format
 msgid "Could not open package file, unsupported archive format: %1 %2"
 msgstr "പാ‍കേജ്  അറ തുറക്കാൻ സാധ്യമല്ല,ശേഖരത്തിന്റെ രീതി പിന്തുണക്കപ്പെടൂന്നില്ല:%1%2"
 
-#: kpackage/private/packagejobthread.cpp:188
+#: kpackage/private/packagejobthread.cpp:191
 #, kde-format
 msgid "Could not open package file: %1"
 msgstr "പാ‍കേജ്  അറ തുറക്കാൻ സാധ്യമല്ല:%1"
 
-#: kpackage/private/packagejobthread.cpp:223
+#: kpackage/private/packagejobthread.cpp:231
 #, kde-format
 msgid "Could not open metadata file: %1"
 msgstr "മെറ്റാഡാറ്റ അറ തുറക്കുവാൻ സാധിക്കുന്നതല്ല:%1"
 
-#: kpackage/private/packagejobthread.cpp:234
+#: kpackage/private/packagejobthread.cpp:238
 #, kde-format
 msgid "No metadata file in package: %1"
 msgstr "പാക്കേജിൽ മെറ്റാഡാറ്റ അറ  ലഭ്യം അല്ല:%1"
 
-#: kpackage/private/packagejobthread.cpp:243
+#: kpackage/private/packagejobthread.cpp:247
 #, kde-format
 msgid "Package plugin name not specified: %1"
 msgstr "പാക്കേജ് അനുബന്ധതിന്റെ നാമം വ്യക്തം ആക്കിയിട്ടില്ല:%1"
 
-#: kpackage/private/packagejobthread.cpp:253
+#: kpackage/private/packagejobthread.cpp:257
 #, kde-format
 msgid "Package plugin name %1 contains invalid characters"
 msgstr "പാക്കേജ് അനുബന്ധ നാമം %1 അസാധുവായ അക്ഷരങ്ങൾ അടങ്ങുന്നു"
 
-#: kpackage/private/packagejobthread.cpp:269
+#: kpackage/private/packagejobthread.cpp:280
 #, kde-format
 msgid ""
 "The new package has a different type from the old version already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:274
+#: kpackage/private/packagejobthread.cpp:285
 #, kde-format
 msgid ""
 "Impossible to remove the old installation of %1 located at %2. error: %3"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:278
+#: kpackage/private/packagejobthread.cpp:289
 #, kde-format
 msgid "Not installing version %1 of %2. Version %3 already installed."
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:282
+#: kpackage/private/packagejobthread.cpp:293
 #, kde-format
 msgid "%1 already exists"
 msgstr "%1നിലവിൽ ഉണ്ട്"
 
-#: kpackage/private/packagejobthread.cpp:297
+#: kpackage/private/packagejobthread.cpp:314
 #, kde-format
 msgid "Could not install dependency: '%1'"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:309
+#: kpackage/private/packagejobthread.cpp:326
 #, kde-format
 msgid "Could not move package to destination: %1"
 msgstr "പാക്കേജ് ലക്ഷ്യസ്താനതെക്ക് മാറ്റുവാൻ സാധ്യമല്ല.%1"
 
-#: kpackage/private/packagejobthread.cpp:319
+#: kpackage/private/packagejobthread.cpp:336
 #, kde-format
 msgid "Could not copy package to destination: %1"
 msgstr "പാക്കേജ് ലക്ഷ്യസ്താനതെക്ക് പകർത്തുവാൻ സാധ്യമല്ല:%1"
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "package path was deleted manually"
 msgstr ""
 
-#: kpackage/private/packagejobthread.cpp:355
+#: kpackage/private/packagejobthread.cpp:372
 #, kde-format
 msgid "%1 does not exist"
 msgstr "%1 നിലവിൽ ഇല്ല"
 
-#: kpackage/private/packagejobthread.cpp:375
+#: kpackage/private/packagejobthread.cpp:392
 #, kde-format
 msgid "Could not delete package from: %1"
 msgstr "പാക്കേജ് ലക്ഷ്യസ്താനതെക്ക് മായ്ക്കുവാൻ സാധ്യമല്ല:%1"
@@ -290,7 +210,7 @@ msgctxt ""
 msgid "One of install, remove, upgrade or list is required."
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:422
+#: kpackagetool/kpackagetool.cpp:342 kpackagetool/kpackagetool.cpp:424
 #, kde-format
 msgid "Error: Can't find plugin metadata: %1\n"
 msgstr ""
@@ -325,7 +245,7 @@ msgstr " സൃഷ്ടാവ്:%1"
 msgid "      Path : %1"
 msgstr " പാത:%1"
 
-#: kpackagetool/kpackagetool.cpp:535
+#: kpackagetool/kpackagetool.cpp:537
 #, kde-format
 msgctxt ""
 "The user entered conflicting options packageroot and global, this is the "
@@ -335,72 +255,67 @@ msgid ""
 "only one."
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:563
-#, kde-format
-msgid "Addon Name"
-msgstr ""
-
-#: kpackagetool/kpackagetool.cpp:564
-#, kde-format
-msgid "Service Type"
-msgstr ""
-
 #: kpackagetool/kpackagetool.cpp:565
+#, kde-format
+msgid "KPackage Structure Name"
+msgstr ""
+
+#: kpackagetool/kpackagetool.cpp:566
 #, kde-format
 msgid "Path"
 msgstr "പാത"
 
-#: kpackagetool/kpackagetool.cpp:604
+#: kpackagetool/kpackagetool.cpp:597
 #, kde-format
 msgid "Package types that are installable with this tool:"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:605
+#: kpackagetool/kpackagetool.cpp:598
 #, kde-format
 msgid "Built in:"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:608
+#: kpackagetool/kpackagetool.cpp:601
 #, kde-format
 msgid "KPackage/Generic"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:610
+#: kpackagetool/kpackagetool.cpp:602
 #, kde-format
 msgid "KPackage/GenericQML"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:619
+#: kpackagetool/kpackagetool.cpp:610
 #, kde-format
 msgid "Provided by plugins:"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:640
+#: kpackagetool/kpackagetool.cpp:633
 #, kde-format
 msgid "Successfully upgraded %1"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:642
+#: kpackagetool/kpackagetool.cpp:635
 #, kde-format
 msgid "Successfully installed %1"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:645
+#: kpackagetool/kpackagetool.cpp:638
 #, kde-format
 msgid "Error: Installation of %1 failed: %2"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:657
+#: kpackagetool/kpackagetool.cpp:650
 #, kde-format
 msgid "Upgrading package from file: %1"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:664
+#: kpackagetool/kpackagetool.cpp:657
 #, kde-format
 msgid "Successfully uninstalled %1"
 msgstr ""
 
-#: kpackagetool/kpackagetool.cpp:666
+#: kpackagetool/kpackagetool.cpp:659
 #, kde-format
 msgid "Error: Uninstallation of %1 failed: %2"
 msgstr ""
@@ -501,3 +416,69 @@ msgstr ""
 msgctxt "Do not translate <path>"
 msgid "Outputs the metadata for the package into <path>"
 msgstr ""
+
+#~ msgid "Accessibility"
+#~ msgstr "പ്രാപ്യത"
+
+#~ msgid "Application Launchers"
+#~ msgstr " സംരഭകൻ"
+
+#~ msgid "Astronomy"
+#~ msgstr "ജ്യോതിശാസ്ത്രം"
+
+#~ msgid "Date and Time"
+#~ msgstr "തിയതിയും സമയവും"
+
+#~ msgid "Development Tools"
+#~ msgstr "വികസന ഉപകരണങ്ങൾ"
+
+#~ msgid "Education"
+#~ msgstr "വിദ്യാഭ്യാസം"
+
+#~ msgid "Environment and Weather"
+#~ msgstr "പരിസരവും കാലാവസ്ഥയും"
+
+#~ msgid "Examples"
+#~ msgstr "ഉദാഹരണങൾ"
+
+#~ msgid "File System"
+#~ msgstr "അറ സിസ്‍റ്റം"
+
+#~ msgid "Fun and Games"
+#~ msgstr "കേളീകളും കളികളും"
+
+#~ msgid "Graphics"
+#~ msgstr "ഗ്രാഫിക്സ്"
+
+#~ msgid "Language"
+#~ msgstr "ഭാഷ"
+
+#~ msgid "Mapping"
+#~ msgstr "മാപ്പിങ്"
+
+#~ msgid "Miscellaneous"
+#~ msgstr "പലവക"
+
+#~ msgid "Multimedia"
+#~ msgstr "മൾടിമീഡിയ"
+
+#~ msgid "Online Services"
+#~ msgstr "ഓൺലൈൻ സേവനങ്ങൾ"
+
+#~ msgid "System Information"
+#~ msgstr "സിസ്റ്റം അറിവ്"
+
+#~ msgid "Windows and Tasks"
+#~ msgstr "ജനാലകളും ജോലികളും"
+
+#~ msgid "Generating %1%2"
+#~ msgstr "ഉണ്ടാക്കൂന്നു%1%2"
+
+#~ msgid "Didn't write %1%2"
+#~ msgstr "എഴുതിയിട്ടില്ല%1%2"
+
+#~ msgid "Generating %1/%2"
+#~ msgstr "ഉണ്ടാക്കൂന്നു%1%2"
+
+#~ msgid "Removed %1"
+#~ msgstr "നീക്കിയിരിക്കുന്നു%1"
