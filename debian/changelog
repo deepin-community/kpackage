@@ -1,3 +1,9 @@
+kpackage (5.103.0-1deepin0) unstable; urgency=medium
+
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Thu, 19 Sep 2024 22:52:13 +0800
+
 kpackage (5.103.0-1) unstable; urgency=medium
 
   [ Aurélien COUDERC ]
